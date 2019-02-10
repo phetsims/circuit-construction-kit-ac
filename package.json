@@ -1,0 +1,24 @@
+{
+  "name": "circuit-construction-kit-ac-and-dc",
+  "version": "1.0.0-dev.0",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phetsims/circuit-construction-kit-ac-and-dc.git"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.0"
+  },
+  "phet": {
+    "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC",
+    "runnable": true,
+    "supportedBrands": [
+      "phet",
+      "adapted-from-phet"
+    ],
+    "simulation": true
+  },
+  "eslintConfig": {
+    "extends": "../chipper/eslint/sim_es6_eslintrc.js"
+  }
+}
