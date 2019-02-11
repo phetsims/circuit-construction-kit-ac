@@ -10,7 +10,7 @@
 
 require.config( {
 
-  deps: [ 'circuit-construction-kit-ac-and-dc-main' ],
+  deps: [ 'circuit-construction-kit-ac-and-dc-tests' ],
 
   paths: {
 

@@ -10,6 +10,11 @@
     "grunt": "~1.0.0"
   },
   "phet": {
+    "generatedUnitTests": true,
+    "phetLibs": [
+      "circuit-construction-kit-common",
+      "twixt"
+    ],
     "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC",
     "runnable": true,
     "supportedBrands": [
