@@ -1,5 +1,8 @@
 {
   "circuit-construction-kit-ac-and-dc.title": {
     "value": "Circuit Construction Kit: AC+DC"
+  },
+  "screen.intro": {
+    "value": "Intro"
   }
 }
