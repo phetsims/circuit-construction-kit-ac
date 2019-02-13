@@ -32,9 +32,9 @@ define( require => {
         // This page is duplicated in the Lab Screen View
         wireToolNode,
         circuitElementToolFactory.createRightBatteryToolNode( 10, tandem.createTandem( 'rightBatteryToolNode' ) ),
-        circuitElementToolFactory.createLightBulbToolNode( 10, tandem.createTandem( 'lightBulbToolNode' ) ),
         circuitElementToolFactory.createResistorToolNode( 10, tandem.createTandem( 'resistorToolNode' ) ),
-        circuitElementToolFactory.createSwitchToolNode( 5, tandem.createTandem( 'switchToolNode' ) ),
+        circuitElementToolFactory.createCapacitorToolNode( 10, tandem.createTandem( 'resistorToolNode' ) ),
+        // circuitElementToolFactory.createLightBulbToolNode( 10, tandem.createTandem( 'lightBulbToolNode' ) ),
 
         new Node( { children: [ wireToolNode ] } ), // Wire should appear at the top of each carousel page
         circuitElementToolFactory.createDollarBillToolNode( 1, tandem.createTandem( 'dollarBillToolNode' ) ),
