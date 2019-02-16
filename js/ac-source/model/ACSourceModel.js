@@ -1,7 +1,7 @@
 // Copyright 2017, University of Colorado Boulder
 
 /**
- * Model for the Intro Screen.
+ * Model for the AC Source Screen.
  *
  * @author Sam Reid (PhET Interactive Simulations)
  */
@@ -12,7 +12,7 @@ define( require => {
   const circuitConstructionKitAcAndDc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/circuitConstructionKitAcAndDc' );
   const CircuitConstructionKitModel = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/model/CircuitConstructionKitModel' );
 
-  class IntroModel extends CircuitConstructionKitModel {
+  class ACSourceModel extends CircuitConstructionKitModel {
 
     /**
      * @param {Tandem} tandem
@@ -23,5 +23,5 @@ define( require => {
     }
   }
 
-  return circuitConstructionKitAcAndDc.register( 'IntroModel', IntroModel );
+  return circuitConstructionKitAcAndDc.register( 'ACSourceModel', ACSourceModel );
 } );

@@ -9,7 +9,7 @@ define( require => {
   'use strict';
 
   // modules
-  const IntroScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/intro/IntroScreen' );
+  const ACSourceScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-source/ACSourceScreen' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
   const Tandem = require( 'TANDEM/Tandem' );
@@ -37,7 +37,7 @@ define( require => {
   // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
   SimLauncher.launch( () => {
     const sim = new Sim( circuitConstructionKitAcAndDcTitleString, [
-      new IntroScreen( tandem.createTandem( 'introScreen' ) )
+      new ACSourceScreen( tandem.createTandem( 'acSourceScreen' ) )
     ], simOptions );
     sim.start();
   } );

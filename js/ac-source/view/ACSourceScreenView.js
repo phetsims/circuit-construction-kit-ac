@@ -1,7 +1,7 @@
 // Copyright 2017-2018, University of Colorado Boulder
 
 /**
- * The view for the Intro screen.
+ * The view for the AC Source screen.
  *
  * @author Sam Reid (PhET Interactive Simulations)
  */
@@ -14,10 +14,10 @@ define( require => {
   const CircuitElementToolFactory = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/view/CircuitElementToolFactory' );
   const Node = require( 'SCENERY/nodes/Node' );
 
-  class IntroScreenView extends CCKCScreenView {
+  class ACSourceScreenView extends CCKCScreenView {
 
     /**
-     * @param {IntroModel} model
+     * @param {ACSourceModel} model
      * @param {Tandem} tandem
      */
     constructor( model, tandem ) {
@@ -57,5 +57,5 @@ define( require => {
     }
   }
 
-  return circuitConstructionKitAcAndDc.register( 'IntroScreenView', IntroScreenView );
+  return circuitConstructionKitAcAndDc.register( 'ACSourceScreenView', ACSourceScreenView );
 } );

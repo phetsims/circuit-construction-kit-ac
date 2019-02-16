@@ -1,7 +1,7 @@
 // Copyright 2017, University of Colorado Boulder
 
 /**
- * The "Intro" for the Circuit Construction Kit: DC simulation.
+ * The "AC Source" screen.
  *
  * @author Sam Reid (PhET Interactive Simulations)
  */
@@ -12,20 +12,20 @@ define( require => {
   const CCKCConstants = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/CCKCConstants' );
   const circuitConstructionKitAcAndDc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/circuitConstructionKitAcAndDc' );
   const Image = require( 'SCENERY/nodes/Image' );
-  const IntroModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/intro/model/IntroModel' );
-  const IntroScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/intro/view/IntroScreenView' );
+  const ACSourceModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-source/model/ACSourceModel' );
+  const ACSourceScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-source/view/ACSourceScreenView' );
   const Property = require( 'AXON/Property' );
   const Rectangle = require( 'SCENERY/nodes/Rectangle' );
   const Screen = require( 'JOIST/Screen' );
 
   // strings
-  const introString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/screen.intro' ); // eslint-disable-line
+  const acSourceString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/screen.ac-source' ); // eslint-disable-line
 
   // images
   const lightBulbImage = require( 'mipmap!CIRCUIT_CONSTRUCTION_KIT_COMMON/lightbulb-middle.png' );
   const lightBulbImageIcon = require( 'mipmap!CIRCUIT_CONSTRUCTION_KIT_COMMON/lightbulb-middle-icon.png' );
 
-  class IntroScreen extends Screen {
+  class ACSourceScreen extends Screen {
 
     /**
      * @param {Tandem} tandem
@@ -52,7 +52,7 @@ define( require => {
       } ) );
 
       const options = {
-        name: introString,
+        name: acSourceString,
         backgroundColorProperty: new Property( CCKCConstants.BACKGROUND_COLOR ),
         homeScreenIcon: homeScreenIcon,
         navigationBarIcon: navigationBarIcon,
@@ -60,12 +60,12 @@ define( require => {
       };
 
       super(
-        () => new IntroModel( tandem.createTandem( 'model' ) ),
-        model => new IntroScreenView( model, tandem.createTandem( 'view' ) ),
+        () => new ACSourceModel( tandem.createTandem( 'model' ) ),
+        model => new ACSourceScreenView( model, tandem.createTandem( 'view' ) ),
         options
       );
     }
   }
 
-  return circuitConstructionKitAcAndDc.register( 'IntroScreen', IntroScreen );
+  return circuitConstructionKitAcAndDc.register( 'ACSourceScreen', ACSourceScreen );
 } );
