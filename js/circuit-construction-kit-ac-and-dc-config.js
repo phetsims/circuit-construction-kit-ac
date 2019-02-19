@@ -31,6 +31,7 @@ require.config( {
     CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC: '.',
     CIRCUIT_CONSTRUCTION_KIT_COMMON: '../../circuit-construction-kit-common/js',
     DOT: '../../dot/js',
+    GRIDDLE: '../../griddle/js',
     JOIST: '../../joist/js',
     KITE: '../../kite/js',
     PHETCOMMON: '../../phetcommon/js',

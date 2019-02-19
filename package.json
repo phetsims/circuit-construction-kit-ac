@@ -12,7 +12,8 @@
   "phet": {
     "phetLibs": [
       "circuit-construction-kit-common",
-      "twixt"
+      "twixt",
+      "griddle"
     ],
     "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC",
     "runnable": true,
