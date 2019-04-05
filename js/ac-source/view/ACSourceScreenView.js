@@ -1,7 +1,7 @@
 // Copyright 2017-2018, University of Colorado Boulder
 
 /**
- * The view for the AC Source screen.
+ * The view for the AC Voltage screen.
  *
  * @author Sam Reid (PhET Interactive Simulations)
  */

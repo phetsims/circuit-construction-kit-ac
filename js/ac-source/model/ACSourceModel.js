@@ -1,7 +1,7 @@
-// Copyright 2017, University of Colorado Boulder
+// Copyright 2017-2019, University of Colorado Boulder
 
 /**
- * Model for the AC Source Screen.
+ * Model for the AC Voltage Screen.
  *
  * @author Sam Reid (PhET Interactive Simulations)
  */
