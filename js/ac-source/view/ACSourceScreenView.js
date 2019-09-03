@@ -9,10 +9,13 @@ define( require => {
   'use strict';
 
   // modules
+  const BooleanProperty = require( 'AXON/BooleanProperty' );
   const CCKCScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/view/CCKCScreenView' );
   const circuitConstructionKitAcAndDc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/circuitConstructionKitAcAndDc' );
   const CircuitElementToolFactory = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/view/CircuitElementToolFactory' );
   const Node = require( 'SCENERY/nodes/Node' );
+  const NumberProperty = require( 'AXON/NumberProperty' );
+  const TimerNode = require( 'SCENERY_PHET/TimerNode' );
 
   class ACSourceScreenView extends CCKCScreenView {
 
@@ -59,6 +62,16 @@ define( require => {
         showBatteryResistanceControl: false,
         showCharts: true,
         itemsPerPage: 6
+      } );
+
+      // @public - the TimerNode
+      // TODO: consider generalizing Stopwatch and StopwatchNode from gas-properties
+      this.timerNode = new TimerNode( new NumberProperty( 0 ), new BooleanProperty( false ), {} );
+      this.addChild( this.timerNode );
+
+      // Show the TimerNode when the checkbox is checked
+      model.showStopwatchProperty.link( showStopwatch => {
+        this.timerNode.visible = showStopwatch;
       } );
     }
   }
