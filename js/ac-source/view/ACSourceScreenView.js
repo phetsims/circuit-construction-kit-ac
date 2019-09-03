@@ -32,11 +32,13 @@ define( require => {
         // This page is duplicated in the Lab Screen View
         wireToolNode,
         circuitElementToolFactory.createRightBatteryToolNode( 10, tandem.createTandem( 'rightBatteryToolNode' ) ),
-        // circuitElementToolFactory.createACSourceToolNode( 10, tandem.createTandem( 'rightBatteryToolNode' ) ),
+        circuitElementToolFactory.createACSourceToolNode( 10, tandem.createTandem( 'rightBatteryToolNode' ) ),
+        circuitElementToolFactory.createLightBulbToolNode( 10, tandem.createTandem( 'lightBulbToolNode' ) ),
         circuitElementToolFactory.createResistorToolNode( 10, tandem.createTandem( 'resistorToolNode' ) ),
-        circuitElementToolFactory.createCapacitorToolNode( 10, tandem.createTandem( 'capacitorToolNode' ) ),
-        circuitElementToolFactory.createInductorToolNode( 10, tandem.createTandem( 'inductorToolNode' ) ),
-        // circuitElementToolFactory.createLightBulbToolNode( 10, tandem.createTandem( 'lightBulbToolNode' ) ),
+        circuitElementToolFactory.createSwitchToolNode( 5, tandem.createTandem( 'switchToolNode' ) ),
+        // circuitElementToolFactory.createCapacitorToolNode( 10, tandem.createTandem( 'capacitorToolNode' ) ),
+        // circuitElementToolFactory.createInductorToolNode( 10, tandem.createTandem( 'inductorToolNode' ) ),
+
 
         new Node( { children: [ wireToolNode ] } ), // Wire should appear at the top of each carousel page
         circuitElementToolFactory.createDollarBillToolNode( 1, tandem.createTandem( 'dollarBillToolNode' ) ),
@@ -55,7 +57,8 @@ define( require => {
         showResetAllButton: true, // The reset all button should be shown.
         showResistivityControl: false,
         showBatteryResistanceControl: false,
-        showCharts: true
+        showCharts: true,
+        itemsPerPage: 6
       } );
     }
   }
