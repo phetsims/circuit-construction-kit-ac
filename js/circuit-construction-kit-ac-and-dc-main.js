@@ -30,7 +30,8 @@ define( require => {
       graphicArts: '',
       soundDesign: '',
       thanks: ''
-    }
+    },
+    accessibility: true
   };
 
   // launch the sim - beware that scenery Image nodes created outside of SimLauncher.launch() will have zero bounds
