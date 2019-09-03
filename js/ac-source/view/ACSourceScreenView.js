@@ -32,9 +32,10 @@ define( require => {
         // This page is duplicated in the Lab Screen View
         wireToolNode,
         circuitElementToolFactory.createRightBatteryToolNode( 10, tandem.createTandem( 'rightBatteryToolNode' ) ),
-        circuitElementToolFactory.createACSourceToolNode( 10, tandem.createTandem( 'rightBatteryToolNode' ) ),
+        // circuitElementToolFactory.createACSourceToolNode( 10, tandem.createTandem( 'rightBatteryToolNode' ) ),
         circuitElementToolFactory.createResistorToolNode( 10, tandem.createTandem( 'resistorToolNode' ) ),
-        circuitElementToolFactory.createCapacitorToolNode( 10, tandem.createTandem( 'resistorToolNode' ) ),
+        circuitElementToolFactory.createCapacitorToolNode( 10, tandem.createTandem( 'capacitorToolNode' ) ),
+        circuitElementToolFactory.createInductorToolNode( 10, tandem.createTandem( 'inductorToolNode' ) ),
         // circuitElementToolFactory.createLightBulbToolNode( 10, tandem.createTandem( 'lightBulbToolNode' ) ),
 
         new Node( { children: [ wireToolNode ] } ), // Wire should appear at the top of each carousel page
