@@ -12,14 +12,14 @@ define( require => {
   const CCKCConstants = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/CCKCConstants' );
   const circuitConstructionKitAcAndDc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/circuitConstructionKitAcAndDc' );
   const Image = require( 'SCENERY/nodes/Image' );
-  const ACSourceModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-source/model/ACSourceModel' );
-  const ACSourceScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-source/view/ACSourceScreenView' );
+  const ACSourceModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-voltage/model/ACSourceModel' );
+  const ACSourceScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-voltage/view/ACSourceScreenView' );
   const Property = require( 'AXON/Property' );
   const Rectangle = require( 'SCENERY/nodes/Rectangle' );
   const Screen = require( 'JOIST/Screen' );
 
   // strings
-  const acSourceString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/screen.ac-source' ); // eslint-disable-line
+  const acSourceString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/screen.ac-voltage' ); // eslint-disable-line
 
   // images
   const lightBulbImage = require( 'mipmap!CIRCUIT_CONSTRUCTION_KIT_COMMON/lightbulb-middle.png' );

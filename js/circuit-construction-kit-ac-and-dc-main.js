@@ -9,7 +9,7 @@ define( require => {
   'use strict';
 
   // modules
-  const ACSourceScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-source/ACSourceScreen' );
+  const ACSourceScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-voltage/ACSourceScreen' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
   const Tandem = require( 'TANDEM/Tandem' );

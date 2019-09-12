@@ -2,7 +2,7 @@
   "circuit-construction-kit-ac-and-dc.title": {
     "value": "Circuit Construction Kit: AC+DC"
   },
-  "screen.ac-source": {
+  "screen.ac-voltage": {
     "value": "AC Voltage"
   }
 }
