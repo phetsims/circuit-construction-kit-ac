@@ -4,5 +4,8 @@
   },
   "screen.ac-voltage": {
     "value": "AC Voltage"
+  },
+  "screen.rlc": {
+    "value": "RLC"
   }
 }
