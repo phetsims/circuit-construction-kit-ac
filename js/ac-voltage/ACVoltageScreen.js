@@ -12,20 +12,20 @@ define( require => {
   const CCKCConstants = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/CCKCConstants' );
   const circuitConstructionKitAcAndDc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/circuitConstructionKitAcAndDc' );
   const Image = require( 'SCENERY/nodes/Image' );
-  const ACSourceModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-voltage/model/ACSourceModel' );
-  const ACSourceScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-voltage/view/ACSourceScreenView' );
+  const ACVoltageModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-voltage/model/ACVoltageModel' );
+  const ACVoltageScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-voltage/view/ACVoltageScreenView' );
   const Property = require( 'AXON/Property' );
   const Rectangle = require( 'SCENERY/nodes/Rectangle' );
   const Screen = require( 'JOIST/Screen' );
 
   // strings
-  const acSourceString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/screen.ac-voltage' ); // eslint-disable-line
+  const acVoltageString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/screen.ac-voltage' ); // eslint-disable-line
 
   // images
   const lightBulbImage = require( 'mipmap!CIRCUIT_CONSTRUCTION_KIT_COMMON/lightbulb-middle.png' );
   const lightBulbImageIcon = require( 'mipmap!CIRCUIT_CONSTRUCTION_KIT_COMMON/lightbulb-middle-icon.png' );
 
-  class ACSourceScreen extends Screen {
+  class ACVoltageScreen extends Screen {
 
     /**
      * @param {Tandem} tandem
@@ -52,7 +52,7 @@ define( require => {
       } ) );
 
       const options = {
-        name: acSourceString,
+        name: acVoltageString,
         backgroundColorProperty: new Property( CCKCConstants.BACKGROUND_COLOR ),
         homeScreenIcon: homeScreenIcon,
         navigationBarIcon: navigationBarIcon,
@@ -60,12 +60,12 @@ define( require => {
       };
 
       super(
-        () => new ACSourceModel( tandem.createTandem( 'model' ) ),
-        model => new ACSourceScreenView( model, tandem.createTandem( 'view' ) ),
+        () => new ACVoltageModel( tandem.createTandem( 'model' ) ),
+        model => new ACVoltageScreenView( model, tandem.createTandem( 'view' ) ),
         options
       );
     }
   }
 
-  return circuitConstructionKitAcAndDc.register( 'ACSourceScreen', ACSourceScreen );
+  return circuitConstructionKitAcAndDc.register( 'ACVoltageScreen', ACVoltageScreen );
 } );

@@ -17,10 +17,10 @@ define( require => {
   const NumberProperty = require( 'AXON/NumberProperty' );
   const TimerNode = require( 'SCENERY_PHET/TimerNode' );
 
-  class ACSourceScreenView extends CCKCScreenView {
+  class ACVoltageScreenView extends CCKCScreenView {
 
     /**
-     * @param {ACSourceModel} model
+     * @param {ACVoltageModel} model
      * @param {Tandem} tandem
      */
     constructor( model, tandem ) {
@@ -35,7 +35,7 @@ define( require => {
         // This page is duplicated in the Lab Screen View
         wireToolNode,
         circuitElementToolFactory.createRightBatteryToolNode( 10, tandem.createTandem( 'rightBatteryToolNode' ) ),
-        circuitElementToolFactory.createACSourceToolNode( 10, tandem.createTandem( 'rightBatteryToolNode' ) ),
+        circuitElementToolFactory.createACVoltageToolNode( 10, tandem.createTandem( 'rightBatteryToolNode' ) ),
         circuitElementToolFactory.createLightBulbToolNode( 10, tandem.createTandem( 'lightBulbToolNode' ) ),
         circuitElementToolFactory.createResistorToolNode( 10, tandem.createTandem( 'resistorToolNode' ) ),
         circuitElementToolFactory.createSwitchToolNode( 5, tandem.createTandem( 'switchToolNode' ) ),
@@ -76,5 +76,5 @@ define( require => {
     }
   }
 
-  return circuitConstructionKitAcAndDc.register( 'ACSourceScreenView', ACSourceScreenView );
+  return circuitConstructionKitAcAndDc.register( 'ACVoltageScreenView', ACVoltageScreenView );
 } );

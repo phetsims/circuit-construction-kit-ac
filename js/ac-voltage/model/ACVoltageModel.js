@@ -13,7 +13,7 @@ define( require => {
   const circuitConstructionKitAcAndDc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/circuitConstructionKitAcAndDc' );
   const CircuitConstructionKitModel = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/model/CircuitConstructionKitModel' );
 
-  class ACSourceModel extends CircuitConstructionKitModel {
+  class ACVoltageModel extends CircuitConstructionKitModel {
 
     /**
      * @param {Tandem} tandem
@@ -29,5 +29,5 @@ define( require => {
     }
   }
 
-  return circuitConstructionKitAcAndDc.register( 'ACSourceModel', ACSourceModel );
+  return circuitConstructionKitAcAndDc.register( 'ACVoltageModel', ACVoltageModel );
 } );
