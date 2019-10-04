@@ -10,16 +10,16 @@ define( require => {
 
   // modules
   const CCKCConstants = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/CCKCConstants' );
-  const circuitConstructionKitAcAndDc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/circuitConstructionKitAcAndDc' );
+  const circuitConstructionKitAc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuitConstructionKitAc' );
   const Image = require( 'SCENERY/nodes/Image' );
-  const ACVoltageModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-voltage/model/ACVoltageModel' );
-  const ACVoltageScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-voltage/view/ACVoltageScreenView' );
+  const ACVoltageModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/ac-voltage/model/ACVoltageModel' );
+  const ACVoltageScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/ac-voltage/view/ACVoltageScreenView' );
   const Property = require( 'AXON/Property' );
   const Rectangle = require( 'SCENERY/nodes/Rectangle' );
   const Screen = require( 'JOIST/Screen' );
 
   // strings
-  const acVoltageString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/screen.ac-voltage' ); // eslint-disable-line
+  const acVoltageString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC/screen.ac-voltage' ); // eslint-disable-line
 
   // images
   const lightBulbImage = require( 'mipmap!CIRCUIT_CONSTRUCTION_KIT_COMMON/lightbulb-middle.png' );
@@ -68,5 +68,5 @@ define( require => {
     }
   }
 
-  return circuitConstructionKitAcAndDc.register( 'ACVoltageScreen', ACVoltageScreen );
+  return circuitConstructionKitAc.register( 'ACVoltageScreen', ACVoltageScreen );
 } );

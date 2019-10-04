@@ -9,14 +9,14 @@ define( require => {
   'use strict';
 
   // modules
-  const ACVoltageScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/ac-voltage/ACVoltageScreen' );
-  const RLCScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/rlc/RLCScreen' );
+  const ACVoltageScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/ac-voltage/ACVoltageScreen' );
+  const RLCScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/rlc/RLCScreen' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
   const Tandem = require( 'TANDEM/Tandem' );
 
   // strings
-  const circuitConstructionKitAcAndDcTitleString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/circuit-construction-kit-ac-and-dc.title' );
+  const circuitConstructionKitAcTitleString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC/circuit-construction-kit-ac.title' );
 
   // constants
   const tandem = Tandem.rootTandem;
@@ -38,7 +38,7 @@ define( require => {
   // launch the sim - beware that scenery Image nodes created outside of SimLauncher.launch() will have zero bounds
   // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
   SimLauncher.launch( () => {
-    const sim = new Sim( circuitConstructionKitAcAndDcTitleString, [
+    const sim = new Sim( circuitConstructionKitAcTitleString, [
       new ACVoltageScreen( tandem.createTandem( 'acVoltageScreen' ) ),
       new RLCScreen( tandem.createTandem( 'rlcScreen' ) )
     ], simOptions );

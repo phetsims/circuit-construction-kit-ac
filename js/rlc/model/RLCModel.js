@@ -10,7 +10,7 @@ define( require => {
 
   // modules
   const BooleanProperty = require( 'AXON/BooleanProperty' );
-  const circuitConstructionKitAcAndDc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/circuitConstructionKitAcAndDc' );
+  const circuitConstructionKitAc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuitConstructionKitAc' );
   const CircuitConstructionKitModel = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/model/CircuitConstructionKitModel' );
 
   class RLCModel extends CircuitConstructionKitModel {
@@ -29,5 +29,5 @@ define( require => {
     }
   }
 
-  return circuitConstructionKitAcAndDc.register( 'RLCModel', RLCModel );
+  return circuitConstructionKitAc.register( 'RLCModel', RLCModel );
 } );

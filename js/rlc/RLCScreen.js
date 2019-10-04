@@ -10,16 +10,16 @@ define( require => {
 
   // modules
   const CCKCConstants = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/CCKCConstants' );
-  const circuitConstructionKitAcAndDc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/circuitConstructionKitAcAndDc' );
+  const circuitConstructionKitAc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuitConstructionKitAc' );
   const Image = require( 'SCENERY/nodes/Image' );
-  const RLCModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/rlc/model/RLCModel' );
-  const RLCScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/rlc/view/RLCScreenView' );
+  const RLCModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/rlc/model/RLCModel' );
+  const RLCScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/rlc/view/RLCScreenView' );
   const Property = require( 'AXON/Property' );
   const Rectangle = require( 'SCENERY/nodes/Rectangle' );
   const Screen = require( 'JOIST/Screen' );
 
   // strings
-  const screenRLCString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/screen.rlc' ); // eslint-disable-line
+  const screenRLCString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC/screen.rlc' ); // eslint-disable-line
 
   // images
   const lightBulbImage = require( 'mipmap!CIRCUIT_CONSTRUCTION_KIT_COMMON/lightbulb-middle.png' );
@@ -68,5 +68,5 @@ define( require => {
     }
   }
 
-  return circuitConstructionKitAcAndDc.register( 'RLCScreen', RLCScreen );
+  return circuitConstructionKitAc.register( 'RLCScreen', RLCScreen );
 } );

@@ -11,7 +11,7 @@ define( require => {
   // modules
   const BooleanProperty = require( 'AXON/BooleanProperty' );
   const CCKCScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/view/CCKCScreenView' );
-  const circuitConstructionKitAcAndDc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC/circuitConstructionKitAcAndDc' );
+  const circuitConstructionKitAc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuitConstructionKitAc' );
   const CircuitElementToolFactory = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/view/CircuitElementToolFactory' );
   const NumberProperty = require( 'AXON/NumberProperty' );
   const TimerNode = require( 'SCENERY_PHET/TimerNode' );
@@ -63,5 +63,5 @@ define( require => {
     }
   }
 
-  return circuitConstructionKitAcAndDc.register( 'RLCScreenView', RLCScreenView );
+  return circuitConstructionKitAc.register( 'RLCScreenView', RLCScreenView );
 } );

@@ -1,7 +1,7 @@
-Circuit Construction Kit: AC+DC
+Circuit Construction Kit: AC
 ================
 
-"Circuit Construction Kit: AC+DC" is an educational simulation in HTML5, by <a href="https://phet.colorado.edu/" target="_blank">PhET Interactive Simulations</a>
+"Circuit Construction Kit: AC" is an educational simulation in HTML5, by <a href="https://phet.colorado.edu/" target="_blank">PhET Interactive Simulations</a>
 at the University of Colorado Boulder.
 
 *This simulation is under development and has not been published.*
@@ -12,4 +12,4 @@ Development. This guide includes how to obtain simulation code and its dependenc
 the sims, as well as other important information.
 
 ### License
-See the <a href="https://github.com/phetsims/circuit-construction-kit-ac-and-dc/blob/master/LICENSE" target="_blank">LICENSE</a>
+See the <a href="https://github.com/phetsims/circuit-construction-kit-ac/blob/master/LICENSE" target="_blank">LICENSE</a>

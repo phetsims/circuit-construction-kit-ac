@@ -1,10 +1,10 @@
 {
-  "name": "circuit-construction-kit-ac-and-dc",
+  "name": "circuit-construction-kit-ac",
   "version": "1.0.0-dev.0",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/phetsims/circuit-construction-kit-ac-and-dc.git"
+    "url": "https://github.com/phetsims/circuit-construction-kit-ac.git"
   },
   "devDependencies": {
     "grunt": "~1.0.0"
@@ -15,7 +15,7 @@
       "twixt",
       "griddle"
     ],
-    "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_AND_DC",
+    "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC",
     "runnable": true,
     "supportedBrands": [
       "phet",
