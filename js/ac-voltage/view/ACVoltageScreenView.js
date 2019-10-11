@@ -66,7 +66,13 @@ define( require => {
 
       // @public - the TimerNode
       // TODO: consider generalizing Stopwatch and StopwatchNode from gas-properties
-      this.timerNode = new TimerNode( new NumberProperty( 0 ), new BooleanProperty( false ), {} );
+      // TODO: Factor out, also appears in the other screen view
+      const timerNodeTandem = tandem.createTandem( 'timerNode' );
+      this.timerNode = new TimerNode( new NumberProperty( 0 ), new BooleanProperty( false, {
+        tandem: timerNodeTandem.createTandem( 'isRunningProperty' )
+      } ), {
+        tandem: timerNodeTandem
+      } );
       this.addChild( this.timerNode );
 
       // Show the TimerNode when the checkbox is checked
