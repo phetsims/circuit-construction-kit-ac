@@ -644,7 +644,7 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "ObjectIO",
       "typeName": "FunctionIO(Vector2IO,NullableIO<Vector2IO>)=>VoidIO"
     },
-    "GroupIO<CircuitElementIO>": {
+    "PhetioGroupIO<CircuitElementIO>": {
       "documentation": "An array that sends notifications when its values have changed.",
       "events": [],
       "methodOrder": [],
@@ -653,9 +653,9 @@ window.phet.phetio.phetioTypes = assert &&
         "CircuitElementIO"
       ],
       "supertype": "ObjectIO",
-      "typeName": "GroupIO<CircuitElementIO>"
+      "typeName": "PhetioGroupIO<CircuitElementIO>"
     },
-    "GroupIO<TrashButtonIO>": {
+    "PhetioGroupIO<TrashButtonIO>": {
       "documentation": "An array that sends notifications when its values have changed.",
       "events": [],
       "methodOrder": [],
@@ -664,9 +664,9 @@ window.phet.phetio.phetioTypes = assert &&
         "TrashButtonIO"
       ],
       "supertype": "ObjectIO",
-      "typeName": "GroupIO<TrashButtonIO>"
+      "typeName": "PhetioGroupIO<TrashButtonIO>"
     },
-    "GroupIO<VertexIO>": {
+    "PhetioGroupIO<VertexIO>": {
       "documentation": "An array that sends notifications when its values have changed.",
       "events": [],
       "methodOrder": [],
@@ -675,7 +675,7 @@ window.phet.phetio.phetioTypes = assert &&
         "VertexIO"
       ],
       "supertype": "ObjectIO",
-      "typeName": "GroupIO<VertexIO>"
+      "typeName": "PhetioGroupIO<VertexIO>"
     },
     "LinkedElementIO": {
       "documentation": "A LinkedElement",

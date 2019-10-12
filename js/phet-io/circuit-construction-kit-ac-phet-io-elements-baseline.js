@@ -83,7 +83,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.model.circuit.acVoltageGroup.prototype": {
       "phetioDocumentation": "",
@@ -143,7 +143,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.model.circuit.batteryGroup.prototype": {
       "phetioDocumentation": "",
@@ -191,7 +191,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.model.circuit.capacitorGroup.prototype": {
       "phetioDocumentation": "",
@@ -263,7 +263,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.model.circuit.highVoltageBatteryGroup.prototype": {
       "phetioDocumentation": "",
@@ -299,7 +299,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.model.circuit.inductorGroup.prototype": {
       "phetioDocumentation": "",
@@ -335,7 +335,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.model.circuit.lightBulbGroup.prototype": {
       "phetioDocumentation": "",
@@ -371,7 +371,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.model.circuit.resistorGroup.prototype": {
       "phetioDocumentation": "",
@@ -431,7 +431,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.model.circuit.switchGroup.prototype": {
       "phetioDocumentation": "",
@@ -467,7 +467,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<VertexIO>"
+      "phetioTypeName": "PhetioGroupIO<VertexIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.model.circuit.vertexGroup.prototype": {
       "phetioDocumentation": "",
@@ -527,7 +527,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.model.circuit.wireGroup.prototype": {
       "phetioDocumentation": "",
@@ -1703,7 +1703,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<TrashButtonIO>"
+      "phetioTypeName": "PhetioGroupIO<TrashButtonIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.view.circuitElementEditContainerNode.trashButtonGroup.prototype": {
       "phetioDocumentation": "",
@@ -8315,7 +8315,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.rlcScreen.model.circuit.acVoltageGroup.prototype": {
       "phetioDocumentation": "",
@@ -8375,7 +8375,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.rlcScreen.model.circuit.batteryGroup.prototype": {
       "phetioDocumentation": "",
@@ -8423,7 +8423,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.rlcScreen.model.circuit.capacitorGroup.prototype": {
       "phetioDocumentation": "",
@@ -8495,7 +8495,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.rlcScreen.model.circuit.highVoltageBatteryGroup.prototype": {
       "phetioDocumentation": "",
@@ -8531,7 +8531,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.rlcScreen.model.circuit.inductorGroup.prototype": {
       "phetioDocumentation": "",
@@ -8567,7 +8567,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.rlcScreen.model.circuit.lightBulbGroup.prototype": {
       "phetioDocumentation": "",
@@ -8603,7 +8603,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.rlcScreen.model.circuit.resistorGroup.prototype": {
       "phetioDocumentation": "",
@@ -8663,7 +8663,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.rlcScreen.model.circuit.switchGroup.prototype": {
       "phetioDocumentation": "",
@@ -8699,7 +8699,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<VertexIO>"
+      "phetioTypeName": "PhetioGroupIO<VertexIO>"
     },
     "circuitConstructionKitAc.rlcScreen.model.circuit.vertexGroup.prototype": {
       "phetioDocumentation": "",
@@ -8759,7 +8759,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<CircuitElementIO>"
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
     },
     "circuitConstructionKitAc.rlcScreen.model.circuit.wireGroup.prototype": {
       "phetioDocumentation": "",
@@ -9983,7 +9983,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "GroupIO<TrashButtonIO>"
+      "phetioTypeName": "PhetioGroupIO<TrashButtonIO>"
     },
     "circuitConstructionKitAc.rlcScreen.view.circuitElementEditContainerNode.trashButtonGroup.prototype": {
       "phetioDocumentation": "",
