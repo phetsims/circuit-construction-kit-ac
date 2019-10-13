@@ -644,39 +644,6 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "ObjectIO",
       "typeName": "FunctionIO(Vector2IO,NullableIO<Vector2IO>)=>VoidIO"
     },
-    "PhetioGroupIO<CircuitElementIO>": {
-      "documentation": "An array that sends notifications when its values have changed.",
-      "events": [],
-      "methodOrder": [],
-      "methods": {},
-      "parameterTypes": [
-        "CircuitElementIO"
-      ],
-      "supertype": "ObjectIO",
-      "typeName": "PhetioGroupIO<CircuitElementIO>"
-    },
-    "PhetioGroupIO<TrashButtonIO>": {
-      "documentation": "An array that sends notifications when its values have changed.",
-      "events": [],
-      "methodOrder": [],
-      "methods": {},
-      "parameterTypes": [
-        "TrashButtonIO"
-      ],
-      "supertype": "ObjectIO",
-      "typeName": "PhetioGroupIO<TrashButtonIO>"
-    },
-    "PhetioGroupIO<VertexIO>": {
-      "documentation": "An array that sends notifications when its values have changed.",
-      "events": [],
-      "methodOrder": [],
-      "methods": {},
-      "parameterTypes": [
-        "VertexIO"
-      ],
-      "supertype": "ObjectIO",
-      "typeName": "PhetioGroupIO<VertexIO>"
-    },
     "LinkedElementIO": {
       "documentation": "A LinkedElement",
       "events": [],
@@ -1187,6 +1154,39 @@ window.phet.phetio.phetioTypes = assert &&
       },
       "supertype": "ObjectIO",
       "typeName": "PhetioEngineIO"
+    },
+    "PhetioGroupIO<CircuitElementIO>": {
+      "documentation": "An array that sends notifications when its values have changed.",
+      "events": [],
+      "methodOrder": [],
+      "methods": {},
+      "parameterTypes": [
+        "CircuitElementIO"
+      ],
+      "supertype": "ObjectIO",
+      "typeName": "PhetioGroupIO<CircuitElementIO>"
+    },
+    "PhetioGroupIO<TrashButtonIO>": {
+      "documentation": "An array that sends notifications when its values have changed.",
+      "events": [],
+      "methodOrder": [],
+      "methods": {},
+      "parameterTypes": [
+        "TrashButtonIO"
+      ],
+      "supertype": "ObjectIO",
+      "typeName": "PhetioGroupIO<TrashButtonIO>"
+    },
+    "PhetioGroupIO<VertexIO>": {
+      "documentation": "An array that sends notifications when its values have changed.",
+      "events": [],
+      "methodOrder": [],
+      "methods": {},
+      "parameterTypes": [
+        "VertexIO"
+      ],
+      "supertype": "ObjectIO",
+      "typeName": "PhetioGroupIO<VertexIO>"
     },
     "PropertyIO<BooleanIO>": {
       "documentation": "Observable values that send out notifications when the value changes. This differs from the traditional listener pattern in that added listeners also receive a callback with the current value when the listeners are registered. This is a widely-used pattern in PhET-iO simulations.",

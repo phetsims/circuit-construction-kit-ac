@@ -10,10 +10,12 @@ define( require => {
 
   // modules
   const ACVoltageScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/ac-voltage/ACVoltageScreen' );
+  const CCKACQueryParameters = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/CCKACQueryParameters' );
   const RLCScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/rlc/RLCScreen' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
   const Tandem = require( 'TANDEM/Tandem' );
+  const capacitor = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/capacitor' );
 
   // strings
   const circuitConstructionKitAcTitleString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC/circuit-construction-kit-ac.title' );
@@ -42,6 +44,13 @@ define( require => {
       new ACVoltageScreen( tandem.createTandem( 'acVoltageScreen' ) ),
       new RLCScreen( tandem.createTandem( 'rlcScreen' ) )
     ], simOptions );
+
+    // For debugging, load the specified circuit, saved from PhET-iO state wrapper
+    if ( phet.phetIo ) {
+      if ( CCKACQueryParameters.loadCircuit === 'capacitor' ) {
+        sim.endedSimConstructionEmitter.addListener( () => phet.phetIo.phetioEngine.phetioStateEngine.setState( capacitor ) );
+      }
+    }
     sim.start();
   } );
 } );
