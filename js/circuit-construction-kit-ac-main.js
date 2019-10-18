@@ -16,6 +16,7 @@ define( require => {
   const SimLauncher = require( 'JOIST/SimLauncher' );
   const Tandem = require( 'TANDEM/Tandem' );
   const capacitor = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/capacitor' );
+  const shortBattery = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/shortBattery' );
 
   // strings
   const circuitConstructionKitAcTitleString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC/circuit-construction-kit-ac.title' );
@@ -49,6 +50,9 @@ define( require => {
     if ( phet.phetIo ) {
       if ( CCKACQueryParameters.loadCircuit === 'capacitor' ) {
         sim.endedSimConstructionEmitter.addListener( () => phet.phetIo.phetioEngine.phetioStateEngine.setState( capacitor ) );
+      }
+      if ( CCKACQueryParameters.loadCircuit === 'shortBattery' ) {
+        sim.endedSimConstructionEmitter.addListener( () => phet.phetIo.phetioEngine.phetioStateEngine.setState( shortBattery ) );
       }
     }
     sim.start();
