@@ -17,6 +17,7 @@ define( require => {
   const Tandem = require( 'TANDEM/Tandem' );
   const capacitor = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/capacitor' );
   const shortBattery = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/shortBattery' );
+  const shortBatterySideBulb = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/shortBatterySideBulb' );
 
   // strings
   const circuitConstructionKitAcTitleString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC/circuit-construction-kit-ac.title' );
@@ -53,6 +54,9 @@ define( require => {
       }
       if ( CCKACQueryParameters.loadCircuit === 'shortBattery' ) {
         sim.endedSimConstructionEmitter.addListener( () => phet.phetIo.phetioEngine.phetioStateEngine.setState( shortBattery ) );
+      }
+      if ( CCKACQueryParameters.loadCircuit === 'shortBatterySideBulb' ) {
+        sim.endedSimConstructionEmitter.addListener( () => phet.phetIo.phetioEngine.phetioStateEngine.setState( shortBatterySideBulb ) );
       }
     }
     sim.start();
