@@ -253,6 +253,30 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<EnumerationIO(ELECTRONS|CONVENTIONAL)>"
     },
+    "circuitConstructionKitAc.acVoltageScreen.model.circuit.fuseGroup": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.model.circuit.fuseGroup.prototype": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": true,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "CircuitElementIO"
+    },
     "circuitConstructionKitAc.acVoltageScreen.model.circuit.highVoltageBatteryGroup": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
@@ -8484,6 +8508,30 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<EnumerationIO(ELECTRONS|CONVENTIONAL)>"
+    },
+    "circuitConstructionKitAc.rlcScreen.model.circuit.fuseGroup": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PhetioGroupIO<CircuitElementIO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.model.circuit.fuseGroup.prototype": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": true,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "CircuitElementIO"
     },
     "circuitConstructionKitAc.rlcScreen.model.circuit.highVoltageBatteryGroup": {
       "phetioDocumentation": "",
