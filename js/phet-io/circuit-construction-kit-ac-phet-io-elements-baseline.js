@@ -13,7 +13,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.model.ammeter.bodyPositionProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.model.ammeter1.bodyPositionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -25,7 +25,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.model.ammeter.currentProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.model.ammeter1.currentProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -37,7 +37,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<NumberIO>>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.model.ammeter.draggingProbesWithBodyProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.model.ammeter1.draggingProbesWithBodyProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -49,7 +49,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.model.ammeter.probePositionProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.model.ammeter1.probePositionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -61,7 +61,67 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.model.ammeter.visibleProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.model.ammeter1.visibleProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.model.ammeter2.bodyPositionProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.model.ammeter2.currentProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<NumberIO>>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.model.ammeter2.draggingProbesWithBodyProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.model.ammeter2.probePositionProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.model.ammeter2.visibleProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -697,7 +757,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<EnumerationIO(LIFELIKE|SCHEMATIC)>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter.blackProbePositionProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter1.blackProbePositionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -709,7 +769,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter.bodyPositionProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter1.bodyPositionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -721,7 +781,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter.draggingProbesWithBodyProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter1.draggingProbesWithBodyProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -733,7 +793,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter.redProbePositionProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter1.redProbePositionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -745,7 +805,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter.visibleProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter1.visibleProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -757,7 +817,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter.voltageProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter1.voltageProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -769,7 +829,79 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<NumberIO>>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.dragHandler": {
+    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter2.blackProbePositionProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter2.bodyPositionProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter2.draggingProbesWithBodyProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter2.redProbePositionProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter2.visibleProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.model.voltmeter2.voltageProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<NumberIO>>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.dragHandler": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -781,7 +913,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ObjectIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.dragHandler.dragAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.dragHandler.dragAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -793,7 +925,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.dragHandler.dragEndAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.dragHandler.dragEndAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -805,7 +937,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.dragHandler.dragStartAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.dragHandler.dragStartAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -817,7 +949,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.dragHandler.isDraggingProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.dragHandler.isDraggingProperty": {
       "phetioDocumentation": "Indicates whether the object is dragging",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -829,7 +961,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeDragHandler": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeDragHandler": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -841,7 +973,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ObjectIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeDragHandler.dragAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeDragHandler.dragAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -853,7 +985,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeDragHandler.dragEndAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeDragHandler.dragEndAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -865,7 +997,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeDragHandler.dragStartAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeDragHandler.dragStartAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -877,7 +1009,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeDragHandler.isDraggingProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeDragHandler.isDraggingProperty": {
       "phetioDocumentation": "Indicates whether the object is dragging",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -889,7 +1021,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeTextNode.readoutText": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeTextNode.readoutText": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -901,7 +1033,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeTextNode.readoutText.opacityProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeTextNode.readoutText.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -913,7 +1045,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeTextNode.readoutText.pickableProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeTextNode.readoutText.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -925,7 +1057,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeTextNode.readoutText.textProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeTextNode.readoutText.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -937,7 +1069,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeTextNode.readoutText.visibleProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeTextNode.readoutText.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -949,7 +1081,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeTextNode.titleText": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeTextNode.titleText": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -961,7 +1093,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeTextNode.titleText.opacityProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeTextNode.titleText.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -973,7 +1105,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeTextNode.titleText.pickableProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeTextNode.titleText.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -985,7 +1117,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeTextNode.titleText.textProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeTextNode.titleText.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -997,7 +1129,247 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode.probeTextNode.titleText.visibleProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode1.probeTextNode.titleText.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.dragHandler": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ObjectIO"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.dragHandler.dragAction": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.dragHandler.dragEndAction": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.dragHandler.dragStartAction": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.dragHandler.isDraggingProperty": {
+      "phetioDocumentation": "Indicates whether the object is dragging",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeDragHandler": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ObjectIO"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeDragHandler.dragAction": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeDragHandler.dragEndAction": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeDragHandler.dragStartAction": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeDragHandler.isDraggingProperty": {
+      "phetioDocumentation": "Indicates whether the object is dragging",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeTextNode.readoutText": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "TextIO"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeTextNode.readoutText.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeTextNode.readoutText.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeTextNode.readoutText.textProperty": {
+      "phetioDocumentation": "Property for the displayed text",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<StringIO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeTextNode.readoutText.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeTextNode.titleText": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "TextIO"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeTextNode.titleText.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeTextNode.titleText.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeTextNode.titleText.textProperty": {
+      "phetioDocumentation": "Property for the displayed text",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<StringIO>"
+    },
+    "circuitConstructionKitAc.acVoltageScreen.view.ammeterNode2.probeTextNode.titleText.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5017,7 +5389,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.blackProbeDragHandler.probeDragHandler": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.blackProbeDragHandler.probeDragHandler": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -5029,7 +5401,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ObjectIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.blackProbeDragHandler.probeDragHandler.dragAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.blackProbeDragHandler.probeDragHandler.dragAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5041,7 +5413,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.blackProbeDragHandler.probeDragHandler.dragEndAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.blackProbeDragHandler.probeDragHandler.dragEndAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5053,7 +5425,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.blackProbeDragHandler.probeDragHandler.dragStartAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.blackProbeDragHandler.probeDragHandler.dragStartAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5065,7 +5437,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.blackProbeDragHandler.probeDragHandler.isDraggingProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.blackProbeDragHandler.probeDragHandler.isDraggingProperty": {
       "phetioDocumentation": "Indicates whether the object is dragging",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5077,7 +5449,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.dragHandler": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.dragHandler": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -5089,7 +5461,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ObjectIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.dragHandler.dragAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.dragHandler.dragAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5101,7 +5473,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.dragHandler.dragEndAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.dragHandler.dragEndAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5113,7 +5485,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.dragHandler.dragStartAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.dragHandler.dragStartAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5125,7 +5497,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.dragHandler.isDraggingProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.dragHandler.isDraggingProperty": {
       "phetioDocumentation": "Indicates whether the object is dragging",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5137,7 +5509,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.probeTextNode.readoutText": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.probeTextNode.readoutText": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5149,7 +5521,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.probeTextNode.readoutText.opacityProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.probeTextNode.readoutText.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5161,7 +5533,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.probeTextNode.readoutText.pickableProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.probeTextNode.readoutText.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5173,7 +5545,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.probeTextNode.readoutText.textProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.probeTextNode.readoutText.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5185,7 +5557,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.probeTextNode.readoutText.visibleProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.probeTextNode.readoutText.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5197,7 +5569,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.probeTextNode.titleText": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.probeTextNode.titleText": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5209,7 +5581,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.probeTextNode.titleText.opacityProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.probeTextNode.titleText.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5221,7 +5593,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.probeTextNode.titleText.pickableProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.probeTextNode.titleText.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5233,7 +5605,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.probeTextNode.titleText.textProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.probeTextNode.titleText.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5245,7 +5617,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.probeTextNode.titleText.visibleProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.probeTextNode.titleText.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5257,7 +5629,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.redProbeDragHandler.probeDragHandler": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.redProbeDragHandler.probeDragHandler": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -5269,7 +5641,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ObjectIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.redProbeDragHandler.probeDragHandler.dragAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.redProbeDragHandler.probeDragHandler.dragAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5281,7 +5653,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.redProbeDragHandler.probeDragHandler.dragEndAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.redProbeDragHandler.probeDragHandler.dragEndAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5293,7 +5665,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.redProbeDragHandler.probeDragHandler.dragStartAction": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.redProbeDragHandler.probeDragHandler.dragStartAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -5305,7 +5677,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNode.redProbeDragHandler.probeDragHandler.isDraggingProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.view.voltmeterNodeundefined.redProbeDragHandler.probeDragHandler.isDraggingProperty": {
       "phetioDocumentation": "Indicates whether the object is dragging",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -8269,7 +8641,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.model.ammeter.bodyPositionProperty": {
+    "circuitConstructionKitAc.rlcScreen.model.ammeter1.bodyPositionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -8281,7 +8653,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.model.ammeter.currentProperty": {
+    "circuitConstructionKitAc.rlcScreen.model.ammeter1.currentProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -8293,7 +8665,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<NumberIO>>"
     },
-    "circuitConstructionKitAc.rlcScreen.model.ammeter.draggingProbesWithBodyProperty": {
+    "circuitConstructionKitAc.rlcScreen.model.ammeter1.draggingProbesWithBodyProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -8305,7 +8677,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.model.ammeter.probePositionProperty": {
+    "circuitConstructionKitAc.rlcScreen.model.ammeter1.probePositionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -8317,7 +8689,67 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.model.ammeter.visibleProperty": {
+    "circuitConstructionKitAc.rlcScreen.model.ammeter1.visibleProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.model.ammeter2.bodyPositionProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.model.ammeter2.currentProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<NumberIO>>"
+    },
+    "circuitConstructionKitAc.rlcScreen.model.ammeter2.draggingProbesWithBodyProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.model.ammeter2.probePositionProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.model.ammeter2.visibleProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -8953,7 +9385,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<EnumerationIO(LIFELIKE|SCHEMATIC)>"
     },
-    "circuitConstructionKitAc.rlcScreen.model.voltmeter.blackProbePositionProperty": {
+    "circuitConstructionKitAc.rlcScreen.model.voltmeter1.blackProbePositionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -8965,7 +9397,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.model.voltmeter.bodyPositionProperty": {
+    "circuitConstructionKitAc.rlcScreen.model.voltmeter1.bodyPositionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -8977,7 +9409,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.model.voltmeter.draggingProbesWithBodyProperty": {
+    "circuitConstructionKitAc.rlcScreen.model.voltmeter1.draggingProbesWithBodyProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -8989,7 +9421,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.model.voltmeter.redProbePositionProperty": {
+    "circuitConstructionKitAc.rlcScreen.model.voltmeter1.redProbePositionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9001,7 +9433,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.model.voltmeter.visibleProperty": {
+    "circuitConstructionKitAc.rlcScreen.model.voltmeter1.visibleProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9013,7 +9445,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.model.voltmeter.voltageProperty": {
+    "circuitConstructionKitAc.rlcScreen.model.voltmeter1.voltageProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9025,7 +9457,79 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<NumberIO>>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.dragHandler": {
+    "circuitConstructionKitAc.rlcScreen.model.voltmeter2.blackProbePositionProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.model.voltmeter2.bodyPositionProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.model.voltmeter2.draggingProbesWithBodyProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.model.voltmeter2.redProbePositionProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.model.voltmeter2.visibleProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.model.voltmeter2.voltageProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<NumberIO>>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.dragHandler": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -9037,7 +9541,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ObjectIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.dragHandler.dragAction": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.dragHandler.dragAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9049,7 +9553,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.dragHandler.dragEndAction": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.dragHandler.dragEndAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9061,7 +9565,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.dragHandler.dragStartAction": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.dragHandler.dragStartAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9073,7 +9577,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.dragHandler.isDraggingProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.dragHandler.isDraggingProperty": {
       "phetioDocumentation": "Indicates whether the object is dragging",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9085,7 +9589,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeDragHandler": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeDragHandler": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -9097,7 +9601,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ObjectIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeDragHandler.dragAction": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeDragHandler.dragAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9109,7 +9613,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeDragHandler.dragEndAction": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeDragHandler.dragEndAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9121,7 +9625,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeDragHandler.dragStartAction": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeDragHandler.dragStartAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9133,7 +9637,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeDragHandler.isDraggingProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeDragHandler.isDraggingProperty": {
       "phetioDocumentation": "Indicates whether the object is dragging",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9145,7 +9649,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeTextNode.readoutText": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeTextNode.readoutText": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9157,7 +9661,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeTextNode.readoutText.opacityProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeTextNode.readoutText.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9169,7 +9673,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeTextNode.readoutText.pickableProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeTextNode.readoutText.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9181,7 +9685,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeTextNode.readoutText.textProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeTextNode.readoutText.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9193,7 +9697,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeTextNode.readoutText.visibleProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeTextNode.readoutText.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9205,7 +9709,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeTextNode.titleText": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeTextNode.titleText": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9217,7 +9721,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeTextNode.titleText.opacityProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeTextNode.titleText.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9229,7 +9733,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeTextNode.titleText.pickableProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeTextNode.titleText.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9241,7 +9745,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeTextNode.titleText.textProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeTextNode.titleText.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -9253,7 +9757,247 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.ammeterNode.probeTextNode.titleText.visibleProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode1.probeTextNode.titleText.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.dragHandler": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ObjectIO"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.dragHandler.dragAction": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.dragHandler.dragEndAction": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.dragHandler.dragStartAction": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.dragHandler.isDraggingProperty": {
+      "phetioDocumentation": "Indicates whether the object is dragging",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeDragHandler": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ObjectIO"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeDragHandler.dragAction": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeDragHandler.dragEndAction": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeDragHandler.dragStartAction": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<Vector2IO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeDragHandler.isDraggingProperty": {
+      "phetioDocumentation": "Indicates whether the object is dragging",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeTextNode.readoutText": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "TextIO"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeTextNode.readoutText.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeTextNode.readoutText.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeTextNode.readoutText.textProperty": {
+      "phetioDocumentation": "Property for the displayed text",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<StringIO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeTextNode.readoutText.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeTextNode.titleText": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "TextIO"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeTextNode.titleText.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeTextNode.titleText.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeTextNode.titleText.textProperty": {
+      "phetioDocumentation": "Property for the displayed text",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<StringIO>"
+    },
+    "circuitConstructionKitAc.rlcScreen.view.ammeterNode2.probeTextNode.titleText.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13033,7 +13777,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.blackProbeDragHandler.probeDragHandler": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.blackProbeDragHandler.probeDragHandler": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -13045,7 +13789,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ObjectIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.blackProbeDragHandler.probeDragHandler.dragAction": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.blackProbeDragHandler.probeDragHandler.dragAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13057,7 +13801,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.blackProbeDragHandler.probeDragHandler.dragEndAction": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.blackProbeDragHandler.probeDragHandler.dragEndAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13069,7 +13813,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.blackProbeDragHandler.probeDragHandler.dragStartAction": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.blackProbeDragHandler.probeDragHandler.dragStartAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13081,7 +13825,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.blackProbeDragHandler.probeDragHandler.isDraggingProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.blackProbeDragHandler.probeDragHandler.isDraggingProperty": {
       "phetioDocumentation": "Indicates whether the object is dragging",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13093,7 +13837,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.dragHandler": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.dragHandler": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -13105,7 +13849,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ObjectIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.dragHandler.dragAction": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.dragHandler.dragAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13117,7 +13861,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.dragHandler.dragEndAction": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.dragHandler.dragEndAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13129,7 +13873,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.dragHandler.dragStartAction": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.dragHandler.dragStartAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13141,7 +13885,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.dragHandler.isDraggingProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.dragHandler.isDraggingProperty": {
       "phetioDocumentation": "Indicates whether the object is dragging",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13153,7 +13897,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.probeTextNode.readoutText": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.probeTextNode.readoutText": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13165,7 +13909,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.probeTextNode.readoutText.opacityProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.probeTextNode.readoutText.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13177,7 +13921,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.probeTextNode.readoutText.pickableProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.probeTextNode.readoutText.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13189,7 +13933,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.probeTextNode.readoutText.textProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.probeTextNode.readoutText.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13201,7 +13945,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.probeTextNode.readoutText.visibleProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.probeTextNode.readoutText.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13213,7 +13957,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.probeTextNode.titleText": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.probeTextNode.titleText": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13225,7 +13969,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.probeTextNode.titleText.opacityProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.probeTextNode.titleText.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13237,7 +13981,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.probeTextNode.titleText.pickableProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.probeTextNode.titleText.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13249,7 +13993,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.probeTextNode.titleText.textProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.probeTextNode.titleText.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13261,7 +14005,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.probeTextNode.titleText.visibleProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.probeTextNode.titleText.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13273,7 +14017,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.redProbeDragHandler.probeDragHandler": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.redProbeDragHandler.probeDragHandler": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -13285,7 +14029,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ObjectIO"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.redProbeDragHandler.probeDragHandler.dragAction": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.redProbeDragHandler.probeDragHandler.dragAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13297,7 +14041,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.redProbeDragHandler.probeDragHandler.dragEndAction": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.redProbeDragHandler.probeDragHandler.dragEndAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13309,7 +14053,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.redProbeDragHandler.probeDragHandler.dragStartAction": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.redProbeDragHandler.probeDragHandler.dragStartAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -13321,7 +14065,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
-    "circuitConstructionKitAc.rlcScreen.view.voltmeterNode.redProbeDragHandler.probeDragHandler.isDraggingProperty": {
+    "circuitConstructionKitAc.rlcScreen.view.voltmeterNodeundefined.redProbeDragHandler.probeDragHandler.isDraggingProperty": {
       "phetioDocumentation": "Indicates whether the object is dragging",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
