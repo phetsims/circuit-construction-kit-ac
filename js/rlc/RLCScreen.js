@@ -12,10 +12,10 @@ define( require => {
   const CCKCConstants = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/CCKCConstants' );
   const circuitConstructionKitAc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuitConstructionKitAc' );
   const Image = require( 'SCENERY/nodes/Image' );
-  const RLCModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/rlc/model/RLCModel' );
-  const RLCScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/rlc/view/RLCScreenView' );
   const Property = require( 'AXON/Property' );
   const Rectangle = require( 'SCENERY/nodes/Rectangle' );
+  const RLCModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/rlc/model/RLCModel' );
+  const RLCScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/rlc/view/RLCScreenView' );
   const Screen = require( 'JOIST/Screen' );
 
   // strings

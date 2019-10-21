@@ -1,7 +1,7 @@
 // Copyright 2019, University of Colorado Boulder
 
 /**
- * The "AC Voltage" screen.
+ * The "Lab" screen.
  *
  * @author Sam Reid (PhET Interactive Simulations)
  */
@@ -9,23 +9,23 @@ define( require => {
   'use strict';
 
   // modules
-  const ACVoltageModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/ac-voltage/model/ACVoltageModel' );
-  const ACVoltageScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/ac-voltage/view/ACVoltageScreenView' );
   const CCKCConstants = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/CCKCConstants' );
   const circuitConstructionKitAc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuitConstructionKitAc' );
   const Image = require( 'SCENERY/nodes/Image' );
+  const LabModel = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/lab/model/LabModel' );
+  const LabScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/lab/view/LabScreenView' );
   const Property = require( 'AXON/Property' );
   const Rectangle = require( 'SCENERY/nodes/Rectangle' );
   const Screen = require( 'JOIST/Screen' );
 
   // strings
-  const acVoltageString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC/screen.ac-voltage' ); // eslint-disable-line
+  const screenLabString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC/screen.lab' ); // eslint-disable-line
 
   // images
   const lightBulbImage = require( 'mipmap!CIRCUIT_CONSTRUCTION_KIT_COMMON/lightbulb-middle.png' );
   const lightBulbImageIcon = require( 'mipmap!CIRCUIT_CONSTRUCTION_KIT_COMMON/lightbulb-middle-icon.png' );
 
-  class ACVoltageScreen extends Screen {
+  class LabScreen extends Screen {
 
     /**
      * @param {Tandem} tandem
@@ -52,7 +52,7 @@ define( require => {
       } ) );
 
       const options = {
-        name: acVoltageString,
+        name: screenLabString,
         backgroundColorProperty: new Property( CCKCConstants.BACKGROUND_COLOR ),
         homeScreenIcon: homeScreenIcon,
         navigationBarIcon: navigationBarIcon,
@@ -61,12 +61,12 @@ define( require => {
       };
 
       super(
-        () => new ACVoltageModel( tandem.createTandem( 'model' ) ),
-        model => new ACVoltageScreenView( model, tandem.createTandem( 'view' ) ),
+        () => new LabModel( tandem.createTandem( 'model' ) ),
+        model => new LabScreenView( model, tandem.createTandem( 'view' ) ),
         options
       );
     }
   }
 
-  return circuitConstructionKitAc.register( 'ACVoltageScreen', ACVoltageScreen );
+  return circuitConstructionKitAc.register( 'LabScreen', LabScreen );
 } );

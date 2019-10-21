@@ -10,14 +10,15 @@ define( require => {
 
   // modules
   const ACVoltageScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/ac-voltage/ACVoltageScreen' );
+  const capacitor = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/capacitor' );
   const CCKACQueryParameters = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/CCKACQueryParameters' );
+  const LabScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/lab/LabScreen' );
   const RLCScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/rlc/RLCScreen' );
+  const shortBattery = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/shortBattery' );
+  const shortBatterySideBulb = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/shortBatterySideBulb' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
   const Tandem = require( 'TANDEM/Tandem' );
-  const capacitor = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/capacitor' );
-  const shortBattery = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/shortBattery' );
-  const shortBatterySideBulb = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/shortBatterySideBulb' );
 
   // strings
   const circuitConstructionKitAcTitleString = require( 'string!CIRCUIT_CONSTRUCTION_KIT_AC/circuit-construction-kit-ac.title' );
@@ -44,7 +45,8 @@ define( require => {
   SimLauncher.launch( () => {
     const sim = new Sim( circuitConstructionKitAcTitleString, [
       new ACVoltageScreen( tandem.createTandem( 'acVoltageScreen' ) ),
-      new RLCScreen( tandem.createTandem( 'rlcScreen' ) )
+      new RLCScreen( tandem.createTandem( 'rlcScreen' ) ),
+      new LabScreen( tandem.createTandem( 'labScreen' ) )
     ], simOptions );
 
     // For debugging, load the specified circuit, saved from PhET-iO state wrapper
