@@ -48,7 +48,8 @@ define( require => {
         showCharts: true,
         itemsPerPage: circuitElementToolNodes.length,
         pageHeight: 400,
-        hideDisabledButtons: true
+        hideDisabledButtons: true,
+        showStopwatchCheckbox: true
       } );
 
       // @public - the TimerNode
@@ -62,6 +63,7 @@ define( require => {
       this.addChild( this.timerNode );
 
       // Show the TimerNode when the checkbox is checked
+      // TODO: duplicated
       model.showStopwatchProperty.link( showStopwatch => {
         this.timerNode.visible = showStopwatch;
       } );

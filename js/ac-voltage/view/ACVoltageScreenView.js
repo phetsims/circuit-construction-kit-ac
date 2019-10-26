@@ -61,7 +61,8 @@ define( require => {
         showResistivityControl: false,
         showBatteryResistanceControl: false,
         showCharts: true,
-        itemsPerPage: 6
+        itemsPerPage: 6,
+        showStopwatchCheckbox: true
       } );
 
       // @public - the TimerNode
@@ -76,6 +77,7 @@ define( require => {
       this.addChild( this.timerNode );
 
       // Show the TimerNode when the checkbox is checked
+      // TODO: duplicated
       model.showStopwatchProperty.link( showStopwatch => {
         this.timerNode.visible = showStopwatch;
       } );
