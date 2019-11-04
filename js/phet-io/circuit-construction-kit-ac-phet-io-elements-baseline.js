@@ -704,7 +704,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "NumberPropertyIO"
     },
     "circuitConstructionKitAc.acVoltageScreen.model.circuitChangedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>circuitJSON: StringIO</li></ol>",
+      "phetioDocumentation": "A function that executes. No arguments.",
       "phetioDynamicElement": false,
       "phetioDynamicElementPrototype": false,
       "phetioEventType": "MODEL",
@@ -714,7 +714,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<StringIO>"
+      "phetioTypeName": "EmitterIO<>"
     },
     "circuitConstructionKitAc.acVoltageScreen.model.currentZoomProperty": {
       "phetioDocumentation": "",
@@ -11130,7 +11130,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "NumberPropertyIO"
     },
     "circuitConstructionKitAc.labScreen.model.circuitChangedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>circuitJSON: StringIO</li></ol>",
+      "phetioDocumentation": "A function that executes. No arguments.",
       "phetioDynamicElement": false,
       "phetioDynamicElementPrototype": false,
       "phetioEventType": "MODEL",
@@ -11140,7 +11140,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<StringIO>"
+      "phetioTypeName": "EmitterIO<>"
     },
     "circuitConstructionKitAc.labScreen.model.currentZoomProperty": {
       "phetioDocumentation": "",
@@ -18670,7 +18670,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "NumberPropertyIO"
     },
     "circuitConstructionKitAc.rlcScreen.model.circuitChangedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>circuitJSON: StringIO</li></ol>",
+      "phetioDocumentation": "A function that executes. No arguments.",
       "phetioDynamicElement": false,
       "phetioDynamicElementPrototype": false,
       "phetioEventType": "MODEL",
@@ -18680,7 +18680,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<StringIO>"
+      "phetioTypeName": "EmitterIO<>"
     },
     "circuitConstructionKitAc.rlcScreen.model.currentZoomProperty": {
       "phetioDocumentation": "",

@@ -190,28 +190,6 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "ObjectIO",
       "typeName": "ActionIO<NumberIO>"
     },
-    "ActionIO<StringIO>": {
-      "documentation": "Executes when an event occurs.",
-      "events": [
-        "emitted"
-      ],
-      "methodOrder": [],
-      "methods": {
-        "execute": {
-          "documentation": "Executes the function the Action is wrapping.",
-          "invocableForReadOnlyElements": false,
-          "parameterTypes": [
-            "StringIO"
-          ],
-          "returnType": "VoidIO"
-        }
-      },
-      "parameterTypes": [
-        "StringIO"
-      ],
-      "supertype": "ObjectIO",
-      "typeName": "ActionIO<StringIO>"
-    },
     "ActionIO<Vector2IO, DOMEventIO>": {
       "documentation": "Executes when an event occurs.",
       "events": [
@@ -344,35 +322,6 @@ window.phet.phetio.phetioTypes = assert &&
       "parameterTypes": [],
       "supertype": "ActionIO<>",
       "typeName": "EmitterIO<>"
-    },
-    "EmitterIO<StringIO>": {
-      "documentation": "Emits when an event occurs and calls added listeners.",
-      "events": [
-        "emitted"
-      ],
-      "methodOrder": [],
-      "methods": {
-        "addListener": {
-          "documentation": "Adds a listener which will be called when the emitter emits.",
-          "parameterTypes": [
-            "FunctionIO(StringIO)=>VoidIO"
-          ],
-          "returnType": "VoidIO"
-        },
-        "emit": {
-          "documentation": "Emits a single event to all listeners.",
-          "invocableForReadOnlyElements": false,
-          "parameterTypes": [
-            "StringIO"
-          ],
-          "returnType": "VoidIO"
-        }
-      },
-      "parameterTypes": [
-        "StringIO"
-      ],
-      "supertype": "ActionIO<StringIO>",
-      "typeName": "EmitterIO<StringIO>"
     },
     "EnumerationIO(ELECTRONS|CONVENTIONAL)": {
       "documentation": "Possible values: ELECTRONS,CONVENTIONAL.",
@@ -586,18 +535,6 @@ window.phet.phetio.phetioTypes = assert &&
       ],
       "supertype": "ObjectIO",
       "typeName": "FunctionIO(ReferenceIO)=>VoidIO"
-    },
-    "FunctionIO(StringIO)=>VoidIO": {
-      "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> StringIO<br><strong>Return Type:</strong> VoidIO",
-      "events": [],
-      "methodOrder": [],
-      "methods": {},
-      "parameterTypes": [
-        "StringIO",
-        "VoidIO"
-      ],
-      "supertype": "ObjectIO",
-      "typeName": "FunctionIO(StringIO)=>VoidIO"
     },
     "FunctionIO(StringIO,NullableIO<StringIO>)=>VoidIO": {
       "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> StringIO, NullableIO<StringIO><br><strong>Return Type:</strong> VoidIO",
