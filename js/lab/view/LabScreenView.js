@@ -46,10 +46,12 @@ define( require => {
         showResistivityControl: false,
         showBatteryResistanceControl: false,
         showCharts: true,
-        itemsPerPage: circuitElementToolNodes.length,
-        pageHeight: 400,
-        hideDisabledButtons: true,
-        showStopwatchCheckbox: true
+        showStopwatchCheckbox: true,
+        circuitElementToolboxOptions: {
+          hideDisabledButtons: true,
+          itemsPerPage: circuitElementToolNodes.length,
+          pageHeight: 400
+        }
       } );
 
       // @public - the TimerNode

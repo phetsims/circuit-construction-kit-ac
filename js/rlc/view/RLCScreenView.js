@@ -43,9 +43,11 @@ define( require => {
         showResistivityControl: false,
         showBatteryResistanceControl: false,
         showCharts: true,
-        itemsPerPage: circuitElementToolNodes.length,
-        pageHeight: 400,
-        hideDisabledButtons: true,
+        circuitElementToolboxOptions: {
+          hideDisabledButtons: true,
+          itemsPerPage: circuitElementToolNodes.length,
+          pageHeight: 400
+        },
         showStopwatchCheckbox: true
       } );
     }

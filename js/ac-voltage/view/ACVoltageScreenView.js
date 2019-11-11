@@ -55,7 +55,9 @@ define( require => {
         showResistivityControl: false,
         showBatteryResistanceControl: false,
         showCharts: true,
-        itemsPerPage: 6,
+        circuitElementToolboxOptions: {
+          itemsPerPage: 6
+        },
         showStopwatchCheckbox: true
       } );
     }
