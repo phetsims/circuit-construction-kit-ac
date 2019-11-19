@@ -44,7 +44,6 @@ define( require => {
         showBatteryResistanceControl: false,
         showCharts: true,
         circuitElementToolboxOptions: {
-          hideDisabledButtons: true,
           itemsPerPage: circuitElementToolNodes.length,
           pageHeight: 400
         },

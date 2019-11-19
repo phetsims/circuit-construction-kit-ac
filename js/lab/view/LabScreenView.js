@@ -48,7 +48,6 @@ define( require => {
         showCharts: true,
         showStopwatchCheckbox: true,
         circuitElementToolboxOptions: {
-          hideDisabledButtons: true,
           itemsPerPage: circuitElementToolNodes.length,
           pageHeight: 400
         }
