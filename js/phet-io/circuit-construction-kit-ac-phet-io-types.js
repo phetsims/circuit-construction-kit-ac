@@ -260,6 +260,14 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "ObjectIO",
       "typeName": "CircuitElementIO"
     },
+    "ClearDynamicsButtonIO": {
+      "documentation": "Button that clears the dynamics from a Capacitor or Inductor",
+      "events": [],
+      "methodOrder": [],
+      "methods": {},
+      "supertype": "ObjectIO",
+      "typeName": "ClearDynamicsButtonIO"
+    },
     "DOMEventIO": {
       "documentation": "A DOM Event",
       "events": [],
@@ -1162,6 +1170,17 @@ window.phet.phetio.phetioTypes = assert &&
       ],
       "supertype": "ObjectIO",
       "typeName": "PhetioGroupIO<CircuitElementIO>"
+    },
+    "PhetioGroupIO<ClearDynamicsButtonIO>": {
+      "documentation": "An array that sends notifications when its values have changed.",
+      "events": [],
+      "methodOrder": [],
+      "methods": {},
+      "parameterTypes": [
+        "ClearDynamicsButtonIO"
+      ],
+      "supertype": "ObjectIO",
+      "typeName": "PhetioGroupIO<ClearDynamicsButtonIO>"
     },
     "PhetioGroupIO<ReverseBatteryButtonIO>": {
       "documentation": "An array that sends notifications when its values have changed.",
