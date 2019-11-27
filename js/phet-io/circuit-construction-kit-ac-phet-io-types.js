@@ -1163,6 +1163,17 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "ObjectIO",
       "typeName": "PhetioGroupIO<CircuitElementIO>"
     },
+    "PhetioGroupIO<ReverseBatteryButtonIO>": {
+      "documentation": "An array that sends notifications when its values have changed.",
+      "events": [],
+      "methodOrder": [],
+      "methods": {},
+      "parameterTypes": [
+        "ReverseBatteryButtonIO"
+      ],
+      "supertype": "ObjectIO",
+      "typeName": "PhetioGroupIO<ReverseBatteryButtonIO>"
+    },
     "PhetioGroupIO<TrashButtonIO>": {
       "documentation": "An array that sends notifications when its values have changed.",
       "events": [],
@@ -1741,6 +1752,14 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "NodeIO",
       "typeName": "ResetAllButtonIO"
     },
+    "ReverseBatteryButtonIO": {
+      "documentation": "Button that disposes a Circuit Element",
+      "events": [],
+      "methodOrder": [],
+      "methods": {},
+      "supertype": "ObjectIO",
+      "typeName": "ReverseBatteryButtonIO"
+    },
     "RichTextIO": {
       "documentation": "The tandem IO type for the scenery RichText node",
       "events": [],
@@ -1828,7 +1847,7 @@ window.phet.phetio.phetioTypes = assert &&
       "typeName": "ToggleButtonIO"
     },
     "TrashButtonIO": {
-      "documentation": "A Charged Particle",
+      "documentation": "Button that disposes a Circuit Element",
       "events": [],
       "methodOrder": [],
       "methods": {},
