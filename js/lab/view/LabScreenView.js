@@ -51,7 +51,8 @@ define( require => {
         circuitElementToolboxOptions: {
           itemsPerPage: circuitElementToolNodes.length,
           pageHeight: 400
-        }
+        },
+        showPhaseShiftControl: true
       } );
 
       // @public - the TimerNode
