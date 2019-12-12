@@ -10557,7 +10557,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "circuitConstructionKitAc.general.soundEnabledProperty": {
+    "circuitConstructionKitAc.general.soundManager.enabledProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioDynamicElementArchetype": false,
