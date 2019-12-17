@@ -9,12 +9,9 @@ define( require => {
   'use strict';
 
   // modules
-  const BooleanProperty = require( 'AXON/BooleanProperty' );
   const CCKCScreenView = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/view/CCKCScreenView' );
   const circuitConstructionKitAc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuitConstructionKitAc' );
   const CircuitElementToolFactory = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/view/CircuitElementToolFactory' );
-  const NumberProperty = require( 'AXON/NumberProperty' );
-  const TimerNode = require( 'SCENERY_PHET/TimerNode' );
 
   class LabScreenView extends CCKCScreenView {
 
@@ -53,22 +50,6 @@ define( require => {
           pageHeight: 400
         },
         showPhaseShiftControl: true
-      } );
-
-      // @public - the TimerNode
-      // TODO: consider generalizing Stopwatch and StopwatchNode from gas-properties
-      const timerNodeTandem = tandem.createTandem( 'timerNode' );
-      this.timerNode = new TimerNode( new NumberProperty( 0 ), new BooleanProperty( false, {
-        tandem: timerNodeTandem.createTandem( 'isRunningProperty' )
-      } ), {
-        tandem: timerNodeTandem
-      } );
-      this.addChild( this.timerNode );
-
-      // Show the TimerNode when the checkbox is checked
-      // TODO: duplicated
-      model.showStopwatchProperty.link( showStopwatch => {
-        this.timerNode.visible = showStopwatch;
       } );
     }
   }
