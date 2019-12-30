@@ -52,28 +52,6 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "ObjectIO",
       "typeName": "ActionIO<BooleanIO>"
     },
-    "ActionIO<DOMEventIO>": {
-      "documentation": "Executes when an event occurs.",
-      "events": [
-        "emitted"
-      ],
-      "methodOrder": [],
-      "methods": {
-        "execute": {
-          "documentation": "Executes the function the Action is wrapping.",
-          "invocableForReadOnlyElements": false,
-          "parameterTypes": [
-            "DOMEventIO"
-          ],
-          "returnType": "VoidIO"
-        }
-      },
-      "parameterTypes": [
-        "DOMEventIO"
-      ],
-      "supertype": "ObjectIO",
-      "typeName": "ActionIO<DOMEventIO>"
-    },
     "ActionIO<EventIO>": {
       "documentation": "Executes when an event occurs.",
       "events": [
@@ -96,7 +74,7 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "ObjectIO",
       "typeName": "ActionIO<EventIO>"
     },
-    "ActionIO<NullableIO<EventIO>>": {
+    "ActionIO<NullableIO<SceneryEventIO>>": {
       "documentation": "Executes when an event occurs.",
       "events": [
         "emitted"
@@ -107,16 +85,16 @@ window.phet.phetio.phetioTypes = assert &&
           "documentation": "Executes the function the Action is wrapping.",
           "invocableForReadOnlyElements": false,
           "parameterTypes": [
-            "NullableIO<EventIO>"
+            "NullableIO<SceneryEventIO>"
           ],
           "returnType": "VoidIO"
         }
       },
       "parameterTypes": [
-        "NullableIO<EventIO>"
+        "NullableIO<SceneryEventIO>"
       ],
       "supertype": "ObjectIO",
-      "typeName": "ActionIO<NullableIO<EventIO>>"
+      "typeName": "ActionIO<NullableIO<SceneryEventIO>>"
     },
     "ActionIO<NumberIO, NumberIO>": {
       "documentation": "Executes when an event occurs.",
@@ -142,7 +120,7 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "ObjectIO",
       "typeName": "ActionIO<NumberIO, NumberIO>"
     },
-    "ActionIO<NumberIO, Vector2IO, DOMEventIO>": {
+    "ActionIO<NumberIO, Vector2IO, EventIO>": {
       "documentation": "Executes when an event occurs.",
       "events": [
         "emitted"
@@ -155,7 +133,7 @@ window.phet.phetio.phetioTypes = assert &&
           "parameterTypes": [
             "NumberIO",
             "Vector2IO",
-            "DOMEventIO"
+            "EventIO"
           ],
           "returnType": "VoidIO"
         }
@@ -163,10 +141,10 @@ window.phet.phetio.phetioTypes = assert &&
       "parameterTypes": [
         "NumberIO",
         "Vector2IO",
-        "DOMEventIO"
+        "EventIO"
       ],
       "supertype": "ObjectIO",
-      "typeName": "ActionIO<NumberIO, Vector2IO, DOMEventIO>"
+      "typeName": "ActionIO<NumberIO, Vector2IO, EventIO>"
     },
     "ActionIO<NumberIO>": {
       "documentation": "Executes when an event occurs.",
@@ -190,7 +168,29 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "ObjectIO",
       "typeName": "ActionIO<NumberIO>"
     },
-    "ActionIO<Vector2IO, DOMEventIO>": {
+    "ActionIO<SceneryEventIO>": {
+      "documentation": "Executes when an event occurs.",
+      "events": [
+        "emitted"
+      ],
+      "methodOrder": [],
+      "methods": {
+        "execute": {
+          "documentation": "Executes the function the Action is wrapping.",
+          "invocableForReadOnlyElements": false,
+          "parameterTypes": [
+            "SceneryEventIO"
+          ],
+          "returnType": "VoidIO"
+        }
+      },
+      "parameterTypes": [
+        "SceneryEventIO"
+      ],
+      "supertype": "ObjectIO",
+      "typeName": "ActionIO<SceneryEventIO>"
+    },
+    "ActionIO<Vector2IO, EventIO>": {
       "documentation": "Executes when an event occurs.",
       "events": [
         "emitted"
@@ -202,17 +202,17 @@ window.phet.phetio.phetioTypes = assert &&
           "invocableForReadOnlyElements": false,
           "parameterTypes": [
             "Vector2IO",
-            "DOMEventIO"
+            "EventIO"
           ],
           "returnType": "VoidIO"
         }
       },
       "parameterTypes": [
         "Vector2IO",
-        "DOMEventIO"
+        "EventIO"
       ],
       "supertype": "ObjectIO",
-      "typeName": "ActionIO<Vector2IO, DOMEventIO>"
+      "typeName": "ActionIO<Vector2IO, EventIO>"
     },
     "ActionIO<Vector2IO>": {
       "documentation": "Executes when an event occurs.",
@@ -267,14 +267,6 @@ window.phet.phetio.phetioTypes = assert &&
       "methods": {},
       "supertype": "ObjectIO",
       "typeName": "ClearDynamicsButtonIO"
-    },
-    "DOMEventIO": {
-      "documentation": "A DOM Event",
-      "events": [],
-      "methodOrder": [],
-      "methods": {},
-      "supertype": "ObjectIO",
-      "typeName": "DOMEventIO"
     },
     "DerivedPropertyIO<BooleanIO>": {
       "documentation": "Like PropertyIO, but not settable.  Instead it is derived from other DerivedPropertyIO or PropertyIO instances",
@@ -331,7 +323,7 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "ActionIO<>",
       "typeName": "EmitterIO<>"
     },
-    "EmitterIO<NullableIO<EventIO>>": {
+    "EmitterIO<NullableIO<SceneryEventIO>>": {
       "documentation": "Emits when an event occurs and calls added listeners.",
       "events": [
         "emitted"
@@ -341,7 +333,7 @@ window.phet.phetio.phetioTypes = assert &&
         "addListener": {
           "documentation": "Adds a listener which will be called when the emitter emits.",
           "parameterTypes": [
-            "FunctionIO(NullableIO<EventIO>)=>VoidIO"
+            "FunctionIO(NullableIO<SceneryEventIO>)=>VoidIO"
           ],
           "returnType": "VoidIO"
         },
@@ -349,16 +341,16 @@ window.phet.phetio.phetioTypes = assert &&
           "documentation": "Emits a single event to all listeners.",
           "invocableForReadOnlyElements": false,
           "parameterTypes": [
-            "NullableIO<EventIO>"
+            "NullableIO<SceneryEventIO>"
           ],
           "returnType": "VoidIO"
         }
       },
       "parameterTypes": [
-        "NullableIO<EventIO>"
+        "NullableIO<SceneryEventIO>"
       ],
-      "supertype": "ActionIO<NullableIO<EventIO>>",
-      "typeName": "EmitterIO<NullableIO<EventIO>>"
+      "supertype": "ActionIO<NullableIO<SceneryEventIO>>",
+      "typeName": "EmitterIO<NullableIO<SceneryEventIO>>"
     },
     "EnumerationIO(ELECTRONS|CONVENTIONAL)": {
       "documentation": "Possible values: ELECTRONS,CONVENTIONAL.",
@@ -385,7 +377,7 @@ window.phet.phetio.phetioTypes = assert &&
       "typeName": "EnumerationIO(LIFELIKE|SCHEMATIC)"
     },
     "EventIO": {
-      "documentation": "An event, with a point",
+      "documentation": "A DOM Event",
       "events": [],
       "methodOrder": [],
       "methods": {},
@@ -484,18 +476,6 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "ObjectIO",
       "typeName": "FunctionIO(NullableIO<BooleanIO>,NullableIO<NullableIO<BooleanIO>>)=>VoidIO"
     },
-    "FunctionIO(NullableIO<EventIO>)=>VoidIO": {
-      "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> NullableIO<EventIO><br><strong>Return Type:</strong> VoidIO",
-      "events": [],
-      "methodOrder": [],
-      "methods": {},
-      "parameterTypes": [
-        "NullableIO<EventIO>",
-        "VoidIO"
-      ],
-      "supertype": "ObjectIO",
-      "typeName": "FunctionIO(NullableIO<EventIO>)=>VoidIO"
-    },
     "FunctionIO(NullableIO<FocusIO>,NullableIO<NullableIO<FocusIO>>)=>VoidIO": {
       "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> NullableIO<FocusIO>, NullableIO<NullableIO<FocusIO>><br><strong>Return Type:</strong> VoidIO",
       "events": [],
@@ -534,6 +514,18 @@ window.phet.phetio.phetioTypes = assert &&
       ],
       "supertype": "ObjectIO",
       "typeName": "FunctionIO(NullableIO<ReferenceIO>,NullableIO<NullableIO<ReferenceIO>>)=>VoidIO"
+    },
+    "FunctionIO(NullableIO<SceneryEventIO>)=>VoidIO": {
+      "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> NullableIO<SceneryEventIO><br><strong>Return Type:</strong> VoidIO",
+      "events": [],
+      "methodOrder": [],
+      "methods": {},
+      "parameterTypes": [
+        "NullableIO<SceneryEventIO>",
+        "VoidIO"
+      ],
+      "supertype": "ObjectIO",
+      "typeName": "FunctionIO(NullableIO<SceneryEventIO>)=>VoidIO"
     },
     "FunctionIO(NumberIO,NullableIO<NumberIO>)=>VoidIO": {
       "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> NumberIO, NullableIO<NumberIO><br><strong>Return Type:</strong> VoidIO",
@@ -698,17 +690,6 @@ window.phet.phetio.phetioTypes = assert &&
       "supertype": "ObjectIO",
       "typeName": "NullableIO<EnumerationIO(LIFELIKE|SCHEMATIC)>"
     },
-    "NullableIO<EventIO>": {
-      "documentation": "A wrapper to wrap another IOType, adding support for null.",
-      "events": [],
-      "methodOrder": [],
-      "methods": {},
-      "parameterTypes": [
-        "EventIO"
-      ],
-      "supertype": "ObjectIO",
-      "typeName": "NullableIO<EventIO>"
-    },
     "NullableIO<FocusIO>": {
       "documentation": "A wrapper to wrap another IOType, adding support for null.",
       "events": [],
@@ -796,6 +777,17 @@ window.phet.phetio.phetioTypes = assert &&
       ],
       "supertype": "ObjectIO",
       "typeName": "NullableIO<ReferenceIO>"
+    },
+    "NullableIO<SceneryEventIO>": {
+      "documentation": "A wrapper to wrap another IOType, adding support for null.",
+      "events": [],
+      "methodOrder": [],
+      "methods": {},
+      "parameterTypes": [
+        "SceneryEventIO"
+      ],
+      "supertype": "ObjectIO",
+      "typeName": "NullableIO<SceneryEventIO>"
     },
     "NullableIO<StringIO>": {
       "documentation": "A wrapper to wrap another IOType, adding support for null.",
@@ -1786,6 +1778,14 @@ window.phet.phetio.phetioTypes = assert &&
       "methods": {},
       "supertype": "NodeIO",
       "typeName": "RichTextIO"
+    },
+    "SceneryEventIO": {
+      "documentation": "An event, with a point",
+      "events": [],
+      "methodOrder": [],
+      "methods": {},
+      "supertype": "ObjectIO",
+      "typeName": "SceneryEventIO"
     },
     "SliderIO": {
       "documentation": "A traditional slider component, with a knob and possibly tick marks",
