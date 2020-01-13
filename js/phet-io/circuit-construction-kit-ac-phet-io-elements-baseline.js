@@ -261,7 +261,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "circuitConstructionKitAc.acVoltageScreen.model.circuit.batteryResistanceProperty": {
+    "circuitConstructionKitAc.acVoltageScreen.model.circuit.sourceResistanceProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -12091,7 +12091,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "circuitConstructionKitAc.labScreen.model.circuit.batteryResistanceProperty": {
+    "circuitConstructionKitAc.labScreen.model.circuit.sourceResistanceProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -20554,7 +20554,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "circuitConstructionKitAc.rlcScreen.model.circuit.batteryResistanceProperty": {
+    "circuitConstructionKitAc.rlcScreen.model.circuit.sourceResistanceProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",

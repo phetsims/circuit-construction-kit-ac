@@ -40,8 +40,6 @@ define( require => {
       super( model, circuitElementToolNodes, tandem, {
         toolboxOrientation: 'vertical', // The toolbox should be vertical
         showResetAllButton: true, // The reset all button should be shown.
-        showResistivityControl: false,
-        showBatteryResistanceControl: false,
         showCharts: true,
         showStopwatchCheckbox: true,
         showSeriesAmmeters: true,
@@ -49,7 +47,9 @@ define( require => {
           itemsPerPage: circuitElementToolNodes.length,
           pageHeight: 400
         },
-        showPhaseShiftControl: true
+        showPhaseShiftControl: true,
+        hasACandDCVoltageSources: true,
+        showAdvancedControls: true
       } );
     }
   }

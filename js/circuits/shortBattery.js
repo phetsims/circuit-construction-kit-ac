@@ -354,7 +354,7 @@ define( require => {
       'value': 0.00001,
       'numberType': 'FloatingPoint'
     },
-    'circuitConstructionKitAc.acVoltageScreen.model.circuit.batteryResistanceProperty': {
+    'circuitConstructionKitAc.acVoltageScreen.model.circuit.sourceResistanceProperty': {
       'value': 0,
       'numberType': 'FloatingPoint'
     },
@@ -1443,7 +1443,7 @@ define( require => {
       }
     },
     'circuitConstructionKitAc.acVoltageScreen.view.batteryResistanceControl.slider.valueProperty': {
-      'elementID': 'circuitConstructionKitAc.acVoltageScreen.model.circuit.batteryResistanceProperty'
+      'elementID': 'circuitConstructionKitAc.acVoltageScreen.model.circuit.sourceResistanceProperty'
     },
     'circuitConstructionKitAc.acVoltageScreen.view.batteryResistanceControl.minLabel.visibleProperty': {
       'value': true
@@ -1756,7 +1756,7 @@ define( require => {
       'value': 0.00001,
       'numberType': 'FloatingPoint'
     },
-    'circuitConstructionKitAc.rlcScreen.model.circuit.batteryResistanceProperty': {
+    'circuitConstructionKitAc.rlcScreen.model.circuit.sourceResistanceProperty': {
       'value': 0,
       'numberType': 'FloatingPoint'
     },
@@ -2770,7 +2770,7 @@ define( require => {
       }
     },
     'circuitConstructionKitAc.rlcScreen.view.batteryResistanceControl.slider.valueProperty': {
-      'elementID': 'circuitConstructionKitAc.rlcScreen.model.circuit.batteryResistanceProperty'
+      'elementID': 'circuitConstructionKitAc.rlcScreen.model.circuit.sourceResistanceProperty'
     },
     'circuitConstructionKitAc.rlcScreen.view.batteryResistanceControl.minLabel.visibleProperty': {
       'value': true
