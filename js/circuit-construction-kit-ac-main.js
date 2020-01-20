@@ -18,6 +18,7 @@ define( require => {
   const shortBatterySideBulb = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/shortBatterySideBulb' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
+  const soundManager = require( 'TAMBO/soundManager' );
   const Tandem = require( 'TANDEM/Tandem' );
 
   // strings
@@ -62,5 +63,8 @@ define( require => {
       }
     }
     sim.start();
+
+    // turn off common UI sounds until a sound design has been done for this sim
+    soundManager.setOutputLevelForCategory( 'user-interface', 0 );
   } );
 } );
