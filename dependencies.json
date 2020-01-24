@@ -1,11 +1,11 @@
 {
-  "comment": "# circuit-construction-kit-ac 1.0.0-dev.7 Thu Jan 23 2020 17:16:15 GMT-0700 (Mountain Standard Time)",
+  "comment": "# circuit-construction-kit-ac 1.0.0-dev.8 Thu Jan 23 2020 21:23:19 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "a99a9ce9ee0774bf3ef509bf3e31ca7383f67478",
     "branch": "master"
   },
   "axon": {
-    "sha": "ea63428334d5c11a91a5e117764c9da9dd13a367",
+    "sha": "bbf2a95bf362d4caebdc9b5a4d5cb229ff84c16d",
     "branch": "master"
   },
   "brand": {
@@ -13,16 +13,16 @@
     "branch": "master"
   },
   "chipper": {
-    "sha": "59869ffad963b65d8999be610cb7283d7d30565b",
-    "branch": "master"
+    "sha": "aea9aeee767080985bf461ace89bacfcaaaca5cd",
+    "branch": "omit-mipmaps"
   },
   "circuit-construction-kit-ac": {
-    "sha": "9f58e61cdc4088ada8bad33c0c778059d7bec895",
+    "sha": "a25ea606cf3623841b3f51b35c5e0d0fbc9f0d46",
     "branch": "master"
   },
   "circuit-construction-kit-common": {
-    "sha": "9ba9202be6d217885fd1aed1a3a8c8ec58a9a41c",
-    "branch": "master"
+    "sha": "ab4b71fd99c4faa5979d09b7d26f7100d4a7b98b",
+    "branch": "omit-mipmaps"
   },
   "dot": {
     "sha": "8c661a7212b512331091c8bdc2a4b8fa94b8b229",
@@ -33,11 +33,11 @@
     "branch": "master"
   },
   "joist": {
-    "sha": "3519ca6e5682a2a2d765a885136061a4a8a3ae0a",
-    "branch": "master"
+    "sha": "30f354100cea3bc55d1849fc2424f57068f6ee4a",
+    "branch": "omit-mipmaps"
   },
   "kite": {
-    "sha": "34828e04f24e584207a6767f1ca9becbce538fd1",
+    "sha": "38b1dddd294b8bad25408a9834b031efb44efa5f",
     "branch": "master"
   },
   "phet-core": {
