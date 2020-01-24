@@ -1,5 +1,5 @@
 {
-  "comment": "# circuit-construction-kit-ac 1.0.0-dev.8 Thu Jan 23 2020 21:23:19 GMT-0700 (Mountain Standard Time)",
+  "comment": "# circuit-construction-kit-ac 1.0.0-dev.9 Fri Jan 24 2020 07:20:59 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "a99a9ce9ee0774bf3ef509bf3e31ca7383f67478",
     "branch": "master"
@@ -13,16 +13,16 @@
     "branch": "master"
   },
   "chipper": {
-    "sha": "aea9aeee767080985bf461ace89bacfcaaaca5cd",
-    "branch": "omit-mipmaps"
+    "sha": "869afab30c8f0b2c418db12199aad832850eeae9",
+    "branch": "master"
   },
   "circuit-construction-kit-ac": {
-    "sha": "a25ea606cf3623841b3f51b35c5e0d0fbc9f0d46",
+    "sha": "2245929467e35a292bcb01395129b6176b7bbb1b",
     "branch": "master"
   },
   "circuit-construction-kit-common": {
-    "sha": "ab4b71fd99c4faa5979d09b7d26f7100d4a7b98b",
-    "branch": "omit-mipmaps"
+    "sha": "b1aa935c77918022c4a4bce00ea95c8b83ed2571",
+    "branch": "master"
   },
   "dot": {
     "sha": "8c661a7212b512331091c8bdc2a4b8fa94b8b229",
@@ -33,8 +33,8 @@
     "branch": "master"
   },
   "joist": {
-    "sha": "30f354100cea3bc55d1849fc2424f57068f6ee4a",
-    "branch": "omit-mipmaps"
+    "sha": "3519ca6e5682a2a2d765a885136061a4a8a3ae0a",
+    "branch": "master"
   },
   "kite": {
     "sha": "38b1dddd294b8bad25408a9834b031efb44efa5f",
@@ -65,7 +65,7 @@
     "branch": "master"
   },
   "scenery": {
-    "sha": "969005bfcec7e44fe8d92fa5ce43c9a3c3f711dc",
+    "sha": "e346d039253a7aea26f249236757f4d135949277",
     "branch": "master"
   },
   "scenery-phet": {
