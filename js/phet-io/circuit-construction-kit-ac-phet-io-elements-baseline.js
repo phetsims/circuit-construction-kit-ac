@@ -1367,7 +1367,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.view.advancedAccordionBox.sourceResistanceControl.slider.enabledRangeProperty": {
-      "phetioDocumentation": "",
+      "phetioDocumentation": "Sliders support two ranges: the outer range which specifies the min and max of the track and the enabledRangeProperty, which determines how low and high the thumb can be dragged within the track.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -1718,7 +1718,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "circuitConstructionKitAc.acVoltageScreen.view.advancedAccordionBox.wireResistivityControl.slider.enabledRangeProperty": {
-      "phetioDocumentation": "",
+      "phetioDocumentation": "Sliders support two ranges: the outer range which specifies the min and max of the track and the enabledRangeProperty, which determines how low and high the thumb can be dragged within the track.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -13223,7 +13223,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "circuitConstructionKitAc.labScreen.view.advancedAccordionBox.sourceResistanceControl.slider.enabledRangeProperty": {
-      "phetioDocumentation": "",
+      "phetioDocumentation": "Sliders support two ranges: the outer range which specifies the min and max of the track and the enabledRangeProperty, which determines how low and high the thumb can be dragged within the track.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -13574,7 +13574,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "circuitConstructionKitAc.labScreen.view.advancedAccordionBox.wireResistivityControl.slider.enabledRangeProperty": {
-      "phetioDocumentation": "",
+      "phetioDocumentation": "Sliders support two ranges: the outer range which specifies the min and max of the track and the enabledRangeProperty, which determines how low and high the thumb can be dragged within the track.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -21738,7 +21738,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "circuitConstructionKitAc.rlcScreen.view.advancedAccordionBox.sourceResistanceControl.slider.enabledRangeProperty": {
-      "phetioDocumentation": "",
+      "phetioDocumentation": "Sliders support two ranges: the outer range which specifies the min and max of the track and the enabledRangeProperty, which determines how low and high the thumb can be dragged within the track.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -22089,7 +22089,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "circuitConstructionKitAc.rlcScreen.view.advancedAccordionBox.wireResistivityControl.slider.enabledRangeProperty": {
-      "phetioDocumentation": "",
+      "phetioDocumentation": "Sliders support two ranges: the outer range which specifies the min and max of the track and the enabledRangeProperty, which determines how low and high the thumb can be dragged within the track.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
