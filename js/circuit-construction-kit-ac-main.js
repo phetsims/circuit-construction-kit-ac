@@ -10,12 +10,8 @@ define( require => {
 
   // modules
   const ACVoltageScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/ac-voltage/ACVoltageScreen' );
-  const capacitor = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/capacitor' );
-  const CCKACQueryParameters = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/CCKACQueryParameters' );
   const LabScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/lab/LabScreen' );
   const RLCScreen = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/rlc/RLCScreen' );
-  const shortBattery = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/shortBattery' );
-  const shortBatterySideBulb = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuits/shortBatterySideBulb' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
   const soundManager = require( 'TAMBO/soundManager' );
@@ -49,19 +45,6 @@ define( require => {
       new RLCScreen( tandem.createTandem( 'rlcScreen' ) ),
       new LabScreen( tandem.createTandem( 'labScreen' ) )
     ], simOptions );
-
-    // For debugging, load the specified circuit, saved from PhET-iO state wrapper
-    if ( phet.phetIo ) {
-      if ( CCKACQueryParameters.loadCircuit === 'capacitor' ) {
-        sim.endedSimConstructionEmitter.addListener( () => phet.phetIo.phetioEngine.phetioStateEngine.setState( capacitor ) );
-      }
-      if ( CCKACQueryParameters.loadCircuit === 'shortBattery' ) {
-        sim.endedSimConstructionEmitter.addListener( () => phet.phetIo.phetioEngine.phetioStateEngine.setState( shortBattery ) );
-      }
-      if ( CCKACQueryParameters.loadCircuit === 'shortBatterySideBulb' ) {
-        sim.endedSimConstructionEmitter.addListener( () => phet.phetIo.phetioEngine.phetioStateEngine.setState( shortBatterySideBulb ) );
-      }
-    }
     sim.start();
 
     // turn off common UI sounds until a sound design has been done for this sim
