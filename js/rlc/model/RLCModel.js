@@ -5,24 +5,22 @@
  *
  * @author Sam Reid (PhET Interactive Simulations)
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const circuitConstructionKitAc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuitConstructionKitAc' );
-  const CircuitConstructionKitModel = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/model/CircuitConstructionKitModel' );
+import CircuitConstructionKitModel
+  from '../../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
+import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 
-  class RLCModel extends CircuitConstructionKitModel {
+class RLCModel extends CircuitConstructionKitModel {
 
-    /**
-     * TODO: do we really need a class here?
-     * @param {Tandem} tandem
-     * @constructor
-     */
-    constructor( tandem ) {
-      super( tandem );
-    }
+  /**
+   * TODO: do we really need a class here?
+   * @param {Tandem} tandem
+   * @constructor
+   */
+  constructor( tandem ) {
+    super( tandem );
   }
+}
 
-  return circuitConstructionKitAc.register( 'RLCModel', RLCModel );
-} );
+circuitConstructionKitAc.register( 'RLCModel', RLCModel );
+export default RLCModel;

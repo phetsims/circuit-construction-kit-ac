@@ -5,23 +5,21 @@
  *
  * @author Sam Reid (PhET Interactive Simulations)
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const circuitConstructionKitAc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuitConstructionKitAc' );
-  const CircuitConstructionKitModel = require( 'CIRCUIT_CONSTRUCTION_KIT_COMMON/model/CircuitConstructionKitModel' );
+import CircuitConstructionKitModel
+  from '../../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
+import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 
-  class ACVoltageModel extends CircuitConstructionKitModel {
+class ACVoltageModel extends CircuitConstructionKitModel {
 
-    /**
-     * @param {Tandem} tandem
-     * @constructor
-     */
-    constructor( tandem ) {
-      super( tandem );
-    }
+  /**
+   * @param {Tandem} tandem
+   * @constructor
+   */
+  constructor( tandem ) {
+    super( tandem );
   }
+}
 
-  return circuitConstructionKitAc.register( 'ACVoltageModel', ACVoltageModel );
-} );
+circuitConstructionKitAc.register( 'ACVoltageModel', ACVoltageModel );
+export default ACVoltageModel;

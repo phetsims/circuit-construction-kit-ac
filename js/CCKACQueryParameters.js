@@ -5,21 +5,17 @@
  *
  * @author Sam Reid (PhET Interactive Simulations)
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const circuitConstructionKitAc = require( 'CIRCUIT_CONSTRUCTION_KIT_AC/circuitConstructionKitAc' );
+import circuitConstructionKitAc from './circuitConstructionKitAc.js';
 
-  const CCKACQueryParameters = window.QueryStringMachine.getAll( {
+const CCKACQueryParameters = window.QueryStringMachine.getAll( {
 
-    loadCircuit: {
-      type: 'string',
-      defaultValue: null
-    }
-  } );
-
-  circuitConstructionKitAc.register( 'CCKACQueryParameters', CCKACQueryParameters );
-
-  return CCKACQueryParameters;
+  loadCircuit: {
+    type: 'string',
+    defaultValue: null
+  }
 } );
+
+circuitConstructionKitAc.register( 'CCKACQueryParameters', CCKACQueryParameters );
+
+export default CCKACQueryParameters;
