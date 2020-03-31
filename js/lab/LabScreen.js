@@ -13,7 +13,7 @@ import lightBulbImage from '../../../circuit-construction-kit-common/mipmaps/lig
 import Screen from '../../../joist/js/Screen.js';
 import Image from '../../../scenery/js/nodes/Image.js';
 import Rectangle from '../../../scenery/js/nodes/Rectangle.js';
-import circuitConstructionKitAcStrings from '../circuit-construction-kit-ac-strings.js';
+import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import LabModel from './model/LabModel.js';
 import LabScreenView from './view/LabScreenView.js';

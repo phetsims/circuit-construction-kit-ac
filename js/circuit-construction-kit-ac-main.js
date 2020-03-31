@@ -11,7 +11,7 @@ import SimLauncher from '../../joist/js/SimLauncher.js';
 import soundManager from '../../tambo/js/soundManager.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import ACVoltageScreen from './ac-voltage/ACVoltageScreen.js';
-import circuitConstructionKitAcStrings from './circuit-construction-kit-ac-strings.js';
+import circuitConstructionKitAcStrings from './circuitConstructionKitAcStrings.js';
 import LabScreen from './lab/LabScreen.js';
 import RLCScreen from './rlc/RLCScreen.js';
 
