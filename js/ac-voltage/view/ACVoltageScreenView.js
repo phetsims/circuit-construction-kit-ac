@@ -8,8 +8,7 @@
 
 import Resistor from '../../../../circuit-construction-kit-common/js/model/Resistor.js';
 import CCKCScreenView from '../../../../circuit-construction-kit-common/js/view/CCKCScreenView.js';
-import CircuitElementToolFactory
-  from '../../../../circuit-construction-kit-common/js/view/CircuitElementToolFactory.js';
+import CircuitElementToolFactory from '../../../../circuit-construction-kit-common/js/view/CircuitElementToolFactory.js';
 import Node from '../../../../scenery/js/nodes/Node.js';
 import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 

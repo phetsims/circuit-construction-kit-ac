@@ -6,8 +6,7 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
-import CircuitConstructionKitModel
-  from '../../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
+import CircuitConstructionKitModel from '../../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
 import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 
 class LabModel extends CircuitConstructionKitModel {
