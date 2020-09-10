@@ -52,6 +52,7 @@ class ACVoltageScreenView extends CCKCScreenView {
       showResetAllButton: true, // The reset all button should be shown.
       showAdvancedControls: false,
       showCharts: true,
+      showTimeControls: true,
       circuitElementToolboxOptions: {
         itemsPerPage: 6
       },

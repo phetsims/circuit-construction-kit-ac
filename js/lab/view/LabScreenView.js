@@ -55,6 +55,7 @@ class LabScreenView extends CCKCScreenView {
       toolboxOrientation: 'vertical', // The toolbox should be vertical
       showResetAllButton: true, // The reset all button should be shown.
       showCharts: true,
+      showTimeControls: true,
       showStopwatchCheckbox: true,
       showSeriesAmmeters: true,
       circuitElementToolboxOptions: {
