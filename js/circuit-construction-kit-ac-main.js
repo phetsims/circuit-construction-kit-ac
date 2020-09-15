@@ -6,6 +6,8 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
+// Image is required for making toDataURLNodeSynchronous work in the built version
+import CCKCOptionsDialogContent from '../../circuit-construction-kit-common/js/view/CCKCOptionsDialogContent.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import soundManager from '../../tambo/js/soundManager.js';
@@ -14,6 +16,7 @@ import ACVoltageScreen from './ac-voltage/ACVoltageScreen.js';
 import circuitConstructionKitAcStrings from './circuitConstructionKitAcStrings.js';
 import LabScreen from './lab/LabScreen.js';
 import RLCScreen from './rlc/RLCScreen.js';
+import '../../scenery/js/nodes/Image.js';
 
 const circuitConstructionKitAcTitleString = circuitConstructionKitAcStrings[ 'circuit-construction-kit-ac' ].title;
 
@@ -21,6 +24,7 @@ const circuitConstructionKitAcTitleString = circuitConstructionKitAcStrings[ 'ci
 const tandem = Tandem.ROOT;
 
 const simOptions = {
+  createOptionsDialogContent: tandem => new CCKCOptionsDialogContent( tandem ),
   credits: {
     //TODO fill in credits, all of these fields are optional, see joist.CreditsNode
     leadDesign: 'Amy Rouinfar',
