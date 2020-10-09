@@ -8,19 +8,16 @@
 
 import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
-import lightBulbImageIcon from '../../../circuit-construction-kit-common/mipmaps/lightbulb-middle-icon_png.js';
-import lightBulbImage from '../../../circuit-construction-kit-common/mipmaps/lightbulb-middle_png.js';
+import screenIconAcSourceImage from '../../images/screen-icon-ac-source_png.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import Image from '../../../scenery/js/nodes/Image.js';
-import Rectangle from '../../../scenery/js/nodes/Rectangle.js';
 import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import ACVoltageModel from './model/ACVoltageModel.js';
 import ACVoltageScreenView from './view/ACVoltageScreenView.js';
 
 const acVoltageString = circuitConstructionKitAcStrings.screen[ 'ac-voltage' ];
-
 
 class ACVoltageScreen extends Screen {
 
@@ -29,33 +26,12 @@ class ACVoltageScreen extends Screen {
    */
   constructor( tandem ) {
 
-    // Create the icon
-    const homeScreenIcon = Rectangle.dimension( Screen.MINIMUM_HOME_SCREEN_ICON_SIZE, {
-      fill: CCKCConstants.BACKGROUND_COLOR
-    } );
-    homeScreenIcon.addChild( new Image( lightBulbImage, {
-      scale: 0.95,
-      center: homeScreenIcon.center
-    } ) );
-
-    // Render a smaller icon for Edge because it is aliasing the image (even with mipmap on)
-    // see https://github.com/phetsims/circuit-construction-kit-dc/issues/120
-    const navigationBarIcon = Rectangle.dimension( Screen.MINIMUM_NAVBAR_ICON_SIZE, {
-      fill: CCKCConstants.BACKGROUND_COLOR
-    } );
-    navigationBarIcon.addChild( new Image( lightBulbImageIcon, {
-      scale: 1.05,
-      center: navigationBarIcon.center
-    } ) );
+    const homeScreenIcon = new Image( screenIconAcSourceImage );
 
     const options = {
       name: acVoltageString,
       backgroundColorProperty: new Property( CCKCConstants.BACKGROUND_COLOR ),
       homeScreenIcon: new ScreenIcon( homeScreenIcon, {
-        maxIconWidthProportion: 1,
-        maxIconHeightProportion: 1
-      } ),
-      navigationBarIcon: new ScreenIcon( navigationBarIcon, {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
       } ),
