@@ -26,14 +26,11 @@ const tandem = Tandem.ROOT;
 const simOptions = {
   createOptionsDialogContent: tandem => new CCKCOptionsDialogContent( tandem ),
   credits: {
-    //TODO fill in credits, all of these fields are optional, see joist.CreditsNode
     leadDesign: 'Amy Rouinfar',
-    softwareDevelopment: '',
-    team: '',
-    qualityAssurance: '',
-    graphicArts: '',
-    soundDesign: '',
-    thanks: ''
+    softwareDevelopment: 'Sam Reid, Denzell Barnett',
+    team: 'Michael Dubson, Ariel Paul, Kathy Perkins, Wendy Adams, Carl Wieman',
+    qualityAssurance: 'Jaspe Arias, Steele Dalton, Amanda Davis, Alex Dornan, Bryce Griebenow, Ethan Johnson, Liam Mulhall, Ben Roberts, Jacob Romero, Ethan Ward, Kathryn Woessner',
+    graphicArts: 'Bryce Gruneich, Mariah Hermsmeyer, Cheryl McCutchan'
   }
 };
 
