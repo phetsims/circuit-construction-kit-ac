@@ -1,1 +1,1 @@
-TODO model description
+See circuit-construction-kit-common/doc/model.md

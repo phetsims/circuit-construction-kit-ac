@@ -1,1 +1,1 @@
-TODO implementation overview
+See circuit-construction-kit-common/doc/implementation-notes.md
