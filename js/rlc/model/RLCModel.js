@@ -12,7 +12,6 @@ import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 class RLCModel extends CircuitConstructionKitModel {
 
   /**
-   * TODO: do we really need a class here?
    * @param {Tandem} tandem
    * @constructor
    */
