@@ -58,8 +58,10 @@ class RLCScreenView extends CCKCScreenView {
       showCharts: true,
       showTimeControls: true,
       circuitElementToolboxOptions: {
-        itemsPerPage: 8,
-        pageHeight: 400
+        carouselOptions: {
+          itemsPerPage: 8,
+          pageHeight: 400
+        }
       },
       showStopwatchCheckbox: true,
       hasACandDCVoltageSources: true

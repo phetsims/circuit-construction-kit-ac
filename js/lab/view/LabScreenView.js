@@ -59,8 +59,10 @@ class LabScreenView extends CCKCScreenView {
       showStopwatchCheckbox: true,
       showSeriesAmmeters: true,
       circuitElementToolboxOptions: {
-        itemsPerPage: 8,
-        pageHeight: 400
+        carouselOptions: {
+          itemsPerPage: 8,
+          pageHeight: 400
+        }
       },
       showPhaseShiftControl: true,
       hasACandDCVoltageSources: true,

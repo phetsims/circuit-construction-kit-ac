@@ -54,7 +54,9 @@ class ACVoltageScreenView extends CCKCScreenView {
       showCharts: true,
       showTimeControls: true,
       circuitElementToolboxOptions: {
-        itemsPerPage: 6
+        carouselOptions:{
+          itemsPerPage: 6
+        }
       },
       showStopwatchCheckbox: true,
       hasACandDCVoltageSources: true
