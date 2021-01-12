@@ -10,6 +10,7 @@ import CCKCConstants from '../../../../circuit-construction-kit-common/js/CCKCCo
 import Resistor from '../../../../circuit-construction-kit-common/js/model/Resistor.js';
 import CCKCScreenView from '../../../../circuit-construction-kit-common/js/view/CCKCScreenView.js';
 import CircuitElementToolFactory from '../../../../circuit-construction-kit-common/js/view/CircuitElementToolFactory.js';
+import merge from '../../../../phet-core/js/merge.js';
 import Node from '../../../../scenery/js/nodes/Node.js';
 import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 
@@ -18,8 +19,9 @@ class LabScreenView extends CCKCScreenView {
   /**
    * @param {LabModel} model
    * @param {Tandem} tandem
+   * @param {Object} [options]
    */
-  constructor( model, tandem ) {
+  constructor( model, tandem, options ) {
     const circuitElementToolFactory = new CircuitElementToolFactory( model.circuit, model.showLabelsProperty, model.viewTypeProperty,
       point => this.circuitLayerNode.globalToLocalPoint( point ) );
 
@@ -51,7 +53,7 @@ class LabScreenView extends CCKCScreenView {
       circuitElementToolFactory.createDogToolNode( 1, tandem.createTandem( 'dogToolNode' ) )
     ];
 
-    super( model, circuitElementToolNodes, tandem, {
+    super( model, circuitElementToolNodes, tandem, merge( {
       toolboxOrientation: 'vertical', // The toolbox should be vertical
       showResetAllButton: true, // The reset all button should be shown.
       showCharts: true,
@@ -67,7 +69,7 @@ class LabScreenView extends CCKCScreenView {
       showPhaseShiftControl: true,
       hasACandDCVoltageSources: true,
       showAdvancedControls: true
-    } );
+    }, options ) );
   }
 }
 

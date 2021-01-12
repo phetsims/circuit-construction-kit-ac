@@ -8,6 +8,7 @@
 
 import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
+import merge from '../../../phet-core/js/merge.js';
 import screenIconLabImage from '../../images/screen-icon-lab_png.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
@@ -24,12 +25,13 @@ class LabScreen extends Screen {
 
   /**
    * @param {Tandem} tandem
+   * @param {Object} [options]
    */
-  constructor( tandem ) {
+  constructor( tandem, options ) {
 
     const homeScreenIcon = new Image( screenIconLabImage );
 
-    const options = {
+    options = merge( {
       name: screenLabString,
       backgroundColorProperty: new Property( CCKCConstants.BACKGROUND_COLOR ),
       homeScreenIcon: new ScreenIcon( homeScreenIcon, {
@@ -37,12 +39,15 @@ class LabScreen extends Screen {
         maxIconHeightProportion: 1
       } ),
       tandem: tandem,
-      maxDT: CCKCConstants.MAX_DT
-    };
+      maxDT: CCKCConstants.MAX_DT,
+      labScreenViewOptions: {
+        showNoncontactAmmeters: true
+      }
+    }, options );
 
     super(
       () => new LabModel( tandem.createTandem( 'model' ) ),
-      model => new LabScreenView( model, tandem.createTandem( 'view' ) ),
+      model => new LabScreenView( model, tandem.createTandem( 'view' ), options.labScreenViewOptions ),
       options
     );
   }
