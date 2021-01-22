@@ -22,8 +22,12 @@ class LabScreenView extends CCKCScreenView {
    * @param {Object} [options]
    */
   constructor( model, tandem, options ) {
-    const circuitElementToolFactory = new CircuitElementToolFactory( model.circuit, model.showLabelsProperty, model.viewTypeProperty,
-      point => this.circuitLayerNode.globalToLocalPoint( point ) );
+    const circuitElementToolFactory = new CircuitElementToolFactory(
+      model.circuit,
+      model.showLabelsProperty,
+      model.viewTypeProperty,
+      point => this.circuitLayerNode.globalToLocalPoint( point )
+    );
 
     const wireToolNode = circuitElementToolFactory.createWireToolNode( CCKCConstants.NUMBER_OF_WIRES, tandem.createTandem( 'wireToolNode' ) );
 
