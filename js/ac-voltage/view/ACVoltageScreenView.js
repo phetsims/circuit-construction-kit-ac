@@ -19,8 +19,12 @@ class ACVoltageScreenView extends CCKCScreenView {
    * @param {Tandem} tandem
    */
   constructor( model, tandem ) {
-    const circuitElementToolFactory = new CircuitElementToolFactory( model.circuit, model.showLabelsProperty, model.viewTypeProperty,
-      point => this.circuitLayerNode.globalToLocalPoint( point ) );
+    const circuitElementToolFactory = new CircuitElementToolFactory(
+      model.circuit,
+      model.showLabelsProperty,
+      model.viewTypeProperty,
+      point => this.circuitLayerNode.globalToLocalPoint( point )
+    );
 
     const wireToolNode = circuitElementToolFactory.createWireToolNode( 25, tandem.createTandem( 'wireToolNode' ) );
 
@@ -54,7 +58,7 @@ class ACVoltageScreenView extends CCKCScreenView {
       showCharts: true,
       showTimeControls: true,
       circuitElementToolboxOptions: {
-        carouselOptions:{
+        carouselOptions: {
           itemsPerPage: 6
         }
       },
