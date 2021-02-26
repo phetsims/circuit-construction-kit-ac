@@ -46,7 +46,7 @@ class ACVoltageScreenView extends CCKCScreenView {
       circuitElementToolFactory.createEraserToolNode( 1, tandem.createTandem( 'eraserToolNode' ) ),
       circuitElementToolFactory.createPencilToolNode( 1, tandem.createTandem( 'pencilToolNode' ) ),
 
-      new Node( { children: [ wireToolNode ] } ),// Wire should appear at the top of each carousel page
+      new Node( { children: [ wireToolNode ] } ), // Wire should appear at the top of each carousel page
       circuitElementToolFactory.createHandToolNode( 1, tandem.createTandem( 'handToolNode' ) ),
       circuitElementToolFactory.createDogToolNode( 1, tandem.createTandem( 'dogToolNode' ) )
     ];
