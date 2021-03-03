@@ -6,6 +6,7 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
+import CCKCConstants from '../../../../circuit-construction-kit-common/js/CCKCConstants.js';
 import Resistor from '../../../../circuit-construction-kit-common/js/model/Resistor.js';
 import CCKCScreenView from '../../../../circuit-construction-kit-common/js/view/CCKCScreenView.js';
 import CircuitElementToolFactory from '../../../../circuit-construction-kit-common/js/view/CircuitElementToolFactory.js';
@@ -26,27 +27,28 @@ class ACVoltageScreenView extends CCKCScreenView {
       point => this.circuitLayerNode.globalToLocalPoint( point )
     );
 
-    const wireToolNode = circuitElementToolFactory.createWireToolNode( 25, tandem.createTandem( 'wireToolNode' ) );
+    const createWireToolNode = () => new Node( {
+      children: [ circuitElementToolFactory.createWireToolNode( CCKCConstants.NUMBER_OF_WIRES, tandem.createTandem( 'wireToolNode' ) ) ]
+    } );
 
     // Tool nodes that appear on every screen. Pagination for the carousel, each page should begin with wire node
     const circuitElementToolNodes = [
 
-      // This page is duplicated in the Lab Screen View
-      wireToolNode,
+      createWireToolNode(),
       circuitElementToolFactory.createRightBatteryToolNode( 10, tandem.createTandem( 'rightBatteryToolNode' ) ),
       circuitElementToolFactory.createACVoltageToolNode( 10, tandem.createTandem( 'rightBatteryToolNode' ) ),
       circuitElementToolFactory.createLightBulbToolNode( 10, tandem.createTandem( 'lightBulbToolNode' ) ),
       circuitElementToolFactory.createResistorToolNode( 10, Resistor.ResistorType.RESISTOR, tandem.createTandem( 'resistorToolNode' ) ),
       circuitElementToolFactory.createSwitchToolNode( 5, tandem.createTandem( 'switchToolNode' ) ),
 
-      new Node( { children: [ wireToolNode ] } ), // Wire should appear at the top of each carousel page
+      createWireToolNode(),
       circuitElementToolFactory.createDollarBillToolNode( 1, tandem.createTandem( 'dollarBillToolNode' ) ),
       circuitElementToolFactory.createPaperClipToolNode( 1, tandem.createTandem( 'paperClipToolNode' ) ),
       circuitElementToolFactory.createCoinToolNode( 1, tandem.createTandem( 'coinToolNode' ) ),
       circuitElementToolFactory.createEraserToolNode( 1, tandem.createTandem( 'eraserToolNode' ) ),
       circuitElementToolFactory.createPencilToolNode( 1, tandem.createTandem( 'pencilToolNode' ) ),
 
-      new Node( { children: [ wireToolNode ] } ), // Wire should appear at the top of each carousel page
+      createWireToolNode(),
       circuitElementToolFactory.createHandToolNode( 1, tandem.createTandem( 'handToolNode' ) ),
       circuitElementToolFactory.createDogToolNode( 1, tandem.createTandem( 'dogToolNode' ) )
     ];
