@@ -18,7 +18,6 @@ class ACVoltageScreenView extends CCKCScreenView {
    */
   constructor( model, tandem ) {
 
-    // TODO: Can this move to CCKCScreenView?
     const circuitElementToolFactory = new CircuitElementToolFactory(
       model.circuit,
       model.showLabelsProperty,
@@ -27,9 +26,9 @@ class ACVoltageScreenView extends CCKCScreenView {
       tandem
     );
 
-    // Tool nodes that appear on every screen. Pagination for the carousel, each page should begin with wire node
+    // Tool nodes that appear on every screen. Pagination for the carousel, each page should begin with wire node,
+    // see options.itemsPerPage below
     const circuitElementToolNodes = [
-
       circuitElementToolFactory.createWireToolNode(),
       circuitElementToolFactory.createRightBatteryToolNode(),
       circuitElementToolFactory.createACVoltageToolNode(),
@@ -40,17 +39,16 @@ class ACVoltageScreenView extends CCKCScreenView {
       circuitElementToolFactory.createWireToolNode(),
       circuitElementToolFactory.createDollarBillToolNode(),
       circuitElementToolFactory.createPaperClipToolNode(),
-      circuitElementToolFactory.createCoinToolNode( ),
-      circuitElementToolFactory.createEraserToolNode( ),
-      circuitElementToolFactory.createPencilToolNode( ),
+      circuitElementToolFactory.createCoinToolNode(),
+      circuitElementToolFactory.createEraserToolNode(),
+      circuitElementToolFactory.createPencilToolNode(),
 
       circuitElementToolFactory.createWireToolNode(),
       circuitElementToolFactory.createHandToolNode(),
-      circuitElementToolFactory.createDogToolNode( )
+      circuitElementToolFactory.createDogToolNode()
     ];
 
     super( model, circuitElementToolNodes, tandem, {
-      showResetAllButton: true,
       showAdvancedControls: false,
       showCharts: true,
       showTimeControls: true,
