@@ -52,7 +52,6 @@ class RLCScreenView extends CCKCScreenView {
     ];
 
     super( model, circuitElementToolNodes, tandem, {
-      toolboxOrientation: 'vertical', // The toolbox should be vertical
       showResetAllButton: true, // The reset all button should be shown.
       showAdvancedControls: false,
       showCharts: true,
