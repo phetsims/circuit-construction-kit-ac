@@ -48,7 +48,7 @@ class LabScreenView extends CCKCScreenView {
       circuitElementToolFactory.createPencilToolNode(),
       circuitElementToolFactory.createHandToolNode(),
 
-      circuitElementToolFactory.createWireToolNode( ),
+      circuitElementToolFactory.createWireToolNode(),
       circuitElementToolFactory.createDogToolNode()
     ];
 
