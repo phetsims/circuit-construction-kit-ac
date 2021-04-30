@@ -1,6 +1,6 @@
 {
   "name": "circuit-construction-kit-ac",
-  "version": "1.0.0-dev.14",
+  "version": "1.0.0-dev.15",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
       "adapted-from-phet"
     ],
     "simulation": true,
-    "features":{
+    "features": {
       "supportsInteractiveDescription": true
     },
     "supportsSound": true
