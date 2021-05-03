@@ -17,6 +17,8 @@ class LabModel extends CircuitConstructionKitModel {
    */
   constructor( tandem ) {
     super( tandem );
+
+    //REVIEW: This doesn't seem to provide value, seems like we should delete this file and use the main model directly.
   }
 }
 
