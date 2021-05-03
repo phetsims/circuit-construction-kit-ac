@@ -8,13 +8,13 @@
 
 import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
+import CircuitConstructionKitModel from '../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
 import screenIconAcSourceImage from '../../images/screen-icon-ac-source_png.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import Image from '../../../scenery/js/nodes/Image.js';
 import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
-import ACVoltageModel from './model/ACVoltageModel.js';
 import ACVoltageScreenView from './view/ACVoltageScreenView.js';
 
 const acVoltageString = circuitConstructionKitAcStrings.screen[ 'ac-voltage' ];
@@ -40,7 +40,7 @@ class ACVoltageScreen extends Screen {
     };
 
     super(
-      () => new ACVoltageModel( tandem.createTandem( 'model' ) ),
+      () => new CircuitConstructionKitModel( tandem.createTandem( 'model' ) ),
       model => new ACVoltageScreenView( model, tandem.createTandem( 'view' ) ),
       options
     );

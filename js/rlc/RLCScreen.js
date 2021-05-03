@@ -8,13 +8,13 @@
 
 import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
+import CircuitConstructionKitModel from '../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
 import screenIconRlcImage from '../../images/screen-icon-rlc_png.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import Image from '../../../scenery/js/nodes/Image.js';
 import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
-import RLCModel from './model/RLCModel.js';
 import RLCScreenView from './view/RLCScreenView.js';
 
 const screenRLCString = circuitConstructionKitAcStrings.screen.rlc;
@@ -41,7 +41,7 @@ class RLCScreen extends Screen {
     };
 
     super(
-      () => new RLCModel( tandem.createTandem( 'model' ) ),
+      () => new CircuitConstructionKitModel( tandem.createTandem( 'model' ) ),
       model => new RLCScreenView( model, tandem.createTandem( 'view' ) ),
       options
     );
