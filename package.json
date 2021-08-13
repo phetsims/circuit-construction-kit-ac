@@ -16,6 +16,9 @@
       "twixt",
       "griddle"
     ],
+    "preload": [
+      "../sherpa/lib/decimal-10.3.1.js"
+    ],
     "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC",
     "runnable": true,
     "supportedBrands": [
