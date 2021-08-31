@@ -1,5 +1,5 @@
 {
-  "comment": "# circuit-construction-kit-ac 1.0.0-dev.17 Mon Aug 30 2021 15:08:42 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# circuit-construction-kit-ac 1.0.0-dev.18 Mon Aug 30 2021 21:14:14 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "f360fa1bd09a47b3c9e49cd90c8dddd136a13e0c",
     "branch": "master"
@@ -21,15 +21,15 @@
     "branch": "master"
   },
   "circuit-construction-kit-ac": {
-    "sha": "564b84abd9c118daf619b3ec0f43f2dbb57a9f26",
+    "sha": "2b4ee859096d55794e9dd6ed276ef5c0c34f1aad",
     "branch": "master"
   },
   "circuit-construction-kit-common": {
-    "sha": "605c09c596a89ab69fa52bf633626bbd88839915",
+    "sha": "2bda6f655425f08ccc45fa08d3f0a76c1e5f433f",
     "branch": "master"
   },
   "dot": {
-    "sha": "e585d101f7b238f25072baa3f2d38e55cc63293c",
+    "sha": "f291f519cb6c5919e1152dd83b9d4c7e1674eaee",
     "branch": "master"
   },
   "griddle": {
@@ -57,7 +57,7 @@
     "branch": "master"
   },
   "phet-io-client-guides": {
-    "sha": "6103f588c1ca5e73d9e386b7b543e9502d873d95",
+    "sha": "9de9fa79d69f81dd0a39a19367e162c25196282d",
     "branch": "master"
   },
   "phet-io-wrappers": {
