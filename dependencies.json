@@ -1,5 +1,5 @@
 {
-  "comment": "# circuit-construction-kit-ac 1.0.0-dev.45 Sat Nov 06 2021 15:53:55 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# circuit-construction-kit-ac 1.0.0-dev.46 Mon Nov 08 2021 13:36:12 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "767b2f345518ceca5144a152ecf40cd4f9206136",
     "branch": "master"
@@ -21,11 +21,11 @@
     "branch": "master"
   },
   "circuit-construction-kit-ac": {
-    "sha": "8f7caf6770b234c2c8174276232b4bb1cbfae6f0",
+    "sha": "e4d3920ed663bbf082ccefccd4a92c52dfd0c682",
     "branch": "master"
   },
   "circuit-construction-kit-common": {
-    "sha": "879674c957721870b663fd5374ab476a061ae54e",
+    "sha": "c34839c983e70b1e8366c30a3851072abb1d5228",
     "branch": "master"
   },
   "dot": {
@@ -45,7 +45,7 @@
     "branch": "master"
   },
   "phet-core": {
-    "sha": "3331af59f31cd1f5f89f47bce8a8e0efd73a6b45",
+    "sha": "2ba44464e7a13df70a30e9ddfedb65c0eca23eaa",
     "branch": "master"
   },
   "phet-io": {
