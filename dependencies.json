@@ -1,15 +1,15 @@
 {
-  "comment": "# circuit-construction-kit-ac 1.0.0-dev.51 Fri Nov 19 2021 11:13:20 GMT-0700 (Mountain Standard Time)",
+  "comment": "# circuit-construction-kit-ac 1.0.0-dev.52 Mon Nov 22 2021 12:41:12 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "767b2f345518ceca5144a152ecf40cd4f9206136",
     "branch": "master"
   },
   "axon": {
-    "sha": "f149b52f17b4e6a2157179996746661fc26ca7a0",
+    "sha": "6e24342dd68dd6bf69116a2e7028667ae6c2d833",
     "branch": "master"
   },
   "bamboo": {
-    "sha": "3aea78ea2e132fc5e5c61d5abb4f9d1319b952a5",
+    "sha": "74f801f53e032d3cc54ffb73ce3b9ab4ba99fde9",
     "branch": "master"
   },
   "brand": {
@@ -17,23 +17,23 @@
     "branch": "master"
   },
   "chipper": {
-    "sha": "bcdbb1f487ac7e6dbc37c8854911fa89520545f2",
+    "sha": "1d508632bb7c4dd9fe09b393b09afb4f3b20ef21",
     "branch": "master"
   },
   "circuit-construction-kit-ac": {
-    "sha": "dc70445a0ddf41ed8213545b69e72c3e8d18e0cf",
+    "sha": "1d15e9d8a4e0286a4b1f557b8eb6287ddfe70f90",
     "branch": "master"
   },
   "circuit-construction-kit-common": {
-    "sha": "db53a2f11aef90933b3142f66eea3b6adf9ac802",
+    "sha": "8c1dfb87e365bcbf0d649c8fca3700cb3aa6b767",
     "branch": "master"
   },
   "dot": {
-    "sha": "4f61733e46f355c2d9412eee0e73f58b25822c0c",
+    "sha": "280cdeccf5a10cc2fff744214bb766b974b82be1",
     "branch": "master"
   },
   "joist": {
-    "sha": "85a745a0ca8a19c7ef0f2d876c11c00b72324c67",
+    "sha": "32edeedbdad0fbcadddc3dea0b3c9890ab602518",
     "branch": "master"
   },
   "kite": {
@@ -49,7 +49,7 @@
     "branch": "master"
   },
   "phet-io": {
-    "sha": "b7c14c5d00d69603a57dd9b5ef78be60566b28e7",
+    "sha": "31629806a9aeaf0ff6c6aeacd961933281bb3608",
     "branch": "master"
   },
   "phet-io-client-guides": {
@@ -77,7 +77,7 @@
     "branch": "master"
   },
   "scenery-phet": {
-    "sha": "a5a230df0d08399e71ce967312472448c3c90f6c",
+    "sha": "dad5354c6e0b2d9e325128b69497bf60bbb7cc7d",
     "branch": "master"
   },
   "sherpa": {
@@ -85,23 +85,23 @@
     "branch": "master"
   },
   "studio": {
-    "sha": "9baadf0eaeef9b2c6c3b3adbd492123d8896a867",
+    "sha": "2bd15d993dda8ac3317300885ac7fe9fb9c4c2d9",
     "branch": "master"
   },
   "sun": {
-    "sha": "bb7aaebd97a6eadd9eaf07d0d27a006c86eca1ea",
+    "sha": "746f09c3d786b6d367eb543af4afccac1536fff6",
     "branch": "master"
   },
   "tambo": {
-    "sha": "8183a745b001385dea533f1306c2fbc616910ae4",
+    "sha": "88e8b1d64991cb2714d05aabc321a49d0134d14f",
     "branch": "master"
   },
   "tandem": {
-    "sha": "d9290303520f6a554d17f5664a1cf0af90bf31c9",
+    "sha": "4a8404cc6fc32ba0cddb9e4b51b2759212b59e9c",
     "branch": "master"
   },
   "twixt": {
-    "sha": "a9c49265fc2c0e47e46f9245d14326e8fe9d653b",
+    "sha": "ab92a7a5146559016662b7876b585c2399a95c3e",
     "branch": "master"
   },
   "utterance-queue": {
