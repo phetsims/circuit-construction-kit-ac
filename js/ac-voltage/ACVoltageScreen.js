@@ -12,7 +12,7 @@ import CircuitConstructionKitModel from '../../../circuit-construction-kit-commo
 import screenIconAcSourceImage from '../../images/screen-icon-ac-source_png.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import Image from '../../../scenery/js/nodes/Image.js';
+import { Image } from '../../../scenery/js/imports.js';
 import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import ACVoltageScreenView from './view/ACVoltageScreenView.js';

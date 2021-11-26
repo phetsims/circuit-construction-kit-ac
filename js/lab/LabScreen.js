@@ -13,7 +13,7 @@ import merge from '../../../phet-core/js/merge.js';
 import screenIconLabImage from '../../images/screen-icon-lab_png.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import Image from '../../../scenery/js/nodes/Image.js';
+import { Image } from '../../../scenery/js/imports.js';
 import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import LabScreenView from './view/LabScreenView.js';
