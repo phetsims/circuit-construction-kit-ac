@@ -37,6 +37,8 @@ const simOptions = {
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
+  const x: number = 7;
+  console.log( 'x=' + x );
   const sim = new Sim( circuitConstructionKitAcTitleString, [
     new ACVoltageScreen( tandem.createTandem( 'acVoltageScreen' ) ),
     new RLCScreen( tandem.createTandem( 'rlcScreen' ) ),
