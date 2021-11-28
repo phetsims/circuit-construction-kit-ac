@@ -24,7 +24,7 @@ const circuitConstructionKitAcTitleString = circuitConstructionKitAcStrings[ 'ci
 const tandem = Tandem.ROOT;
 
 const simOptions = {
-  createOptionsDialogContent: tandem => new CCKCOptionsDialogContent( tandem ),
+  createOptionsDialogContent: ( tandem: Tandem ) => new CCKCOptionsDialogContent( tandem ),
   credits: {
     leadDesign: 'Amy Rouinfar',
     softwareDevelopment: 'Sam Reid, Denzell Barnett',
