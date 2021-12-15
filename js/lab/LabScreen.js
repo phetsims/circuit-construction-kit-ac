@@ -10,7 +10,7 @@ import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
 import CircuitConstructionKitModel from '../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
 import merge from '../../../phet-core/js/merge.js';
-import screenIconLabImage from '../../images/screen-icon-lab_png.js';
+import screenIconLab_png from '../../images/screenIconLab_png.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import { Image } from '../../../scenery/js/imports.js';
@@ -29,7 +29,7 @@ class LabScreen extends Screen {
    */
   constructor( tandem, options ) {
 
-    const homeScreenIcon = new Image( screenIconLabImage );
+    const homeScreenIcon = new Image( screenIconLab_png );
 
     options = merge( {
       name: screenLabString,

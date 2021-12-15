@@ -9,7 +9,7 @@
 import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
 import CircuitConstructionKitModel from '../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
-import screenIconAcSourceImage from '../../images/screen-icon-ac-source_png.js';
+import screenIconACSource_png from '../../images/screenIconACSource_png.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import { Image } from '../../../scenery/js/imports.js';
@@ -26,7 +26,7 @@ class ACVoltageScreen extends Screen {
    */
   constructor( tandem ) {
 
-    const homeScreenIcon = new Image( screenIconAcSourceImage );
+    const homeScreenIcon = new Image( screenIconACSource_png );
 
     const options = {
       name: acVoltageString,

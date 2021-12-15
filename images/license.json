@@ -1,5 +1,5 @@
 {
-  "screen-icon-ac-source.png": {
+  "screenIconACSource.png": {
     "text": [
       "Copyright 2020 University of Colorado Boulder"
     ],
@@ -7,7 +7,7 @@
     "license": "contact phethelp@colorado.edu",
     "notes": "created by Amy Rouinfar"
   },
-  "screen-icon-lab.png": {
+  "screenIconLab.png": {
     "text": [
       "Copyright 2020 University of Colorado Boulder"
     ],
@@ -15,7 +15,7 @@
     "license": "contact phethelp@colorado.edu",
     "notes": "created by Amy Rouinfar"
   },
-  "screen-icon-rlc.png": {
+  "screenIconRLC.png": {
     "text": [
       "Copyright 2020 University of Colorado Boulder"
     ],

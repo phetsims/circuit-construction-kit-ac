@@ -9,7 +9,7 @@
 import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
 import CircuitConstructionKitModel from '../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
-import screenIconRlcImage from '../../images/screen-icon-rlc_png.js';
+import screenIconRLC_png from '../../images/screenIconRLC_png.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import { Image } from '../../../scenery/js/imports.js';
@@ -27,7 +27,7 @@ class RLCScreen extends Screen {
    */
   constructor( tandem ) {
 
-    const homeScreenIcon = new Image( screenIconRlcImage );
+    const homeScreenIcon = new Image( screenIconRLC_png );
 
     const options = {
       name: screenRLCString,
