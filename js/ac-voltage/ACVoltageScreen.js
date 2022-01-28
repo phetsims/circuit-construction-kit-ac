@@ -40,7 +40,7 @@ class ACVoltageScreen extends Screen {
     };
 
     super(
-      () => new CircuitConstructionKitModel( tandem.createTandem( 'model' ) ),
+      () => new CircuitConstructionKitModel( true, tandem.createTandem( 'model' ) ),
       model => new ACVoltageScreenView( model, tandem.createTandem( 'view' ) ),
       options
     );
