@@ -41,7 +41,7 @@ class RLCScreen extends Screen {
     };
 
     super(
-      () => new CircuitConstructionKitModel( true, tandem.createTandem( 'model' ) ),
+      () => new CircuitConstructionKitModel( true, false, tandem.createTandem( 'model' ) ),
       model => new RLCScreenView( model, tandem.createTandem( 'view' ) ),
       options
     );

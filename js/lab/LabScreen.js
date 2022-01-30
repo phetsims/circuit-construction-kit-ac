@@ -46,7 +46,7 @@ class LabScreen extends Screen {
     }, options );
 
     super(
-      () => new CircuitConstructionKitModel( true, tandem.createTandem( 'model' ) ),
+      () => new CircuitConstructionKitModel( true, true, tandem.createTandem( 'model' ) ),
       model => new LabScreenView( model, tandem.createTandem( 'view' ), options.labScreenViewOptions ),
       options
     );
