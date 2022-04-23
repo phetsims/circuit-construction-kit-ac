@@ -8,7 +8,7 @@
 
 // Image is required for making toDataURLNodeSynchronous work in the built version
 import CCKCOptionsDialogContent from '../../circuit-construction-kit-common/js/view/CCKCOptionsDialogContent.js';
-import Sim from '../../joist/js/Sim.js';
+import Sim, { SimOptions } from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import soundManager from '../../tambo/js/soundManager.js';
 import Tandem from '../../tandem/js/Tandem.js';
@@ -23,7 +23,7 @@ const circuitConstructionKitAcTitleString = circuitConstructionKitAcStrings[ 'ci
 // constants
 const tandem = Tandem.ROOT;
 
-const simOptions = {
+const simOptions: SimOptions = {
   createOptionsDialogContent: ( tandem: Tandem ) => new CCKCOptionsDialogContent( tandem ),
   credits: {
     leadDesign: 'Amy Rouinfar',
