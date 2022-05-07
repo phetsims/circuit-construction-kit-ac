@@ -9,12 +9,12 @@ import circuitConstructionKitAc from './circuitConstructionKitAc.js';
 
 type StringsType = {
   'circuit-construction-kit-ac': {
-    'title': string
-  },
+    'title': string;
+  };
   'screen': {
-    'ac-voltage': string,
-    'rlc': string,
-    'lab': string
+    'ac-voltage': string;
+    'rlc': string;
+    'lab': string;
   }
 };
 
