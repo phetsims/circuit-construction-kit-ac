@@ -9,12 +9,12 @@
 import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
 import CircuitConstructionKitModel from '../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
-import screenIconACSource_png from '../../images/screenIconACSource_png.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import { Image } from '../../../scenery/js/imports.js';
-import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
+import screenIconACSource_png from '../../images/screenIconACSource_png.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
+import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
 import ACVoltageScreenView from './view/ACVoltageScreenView.js';
 
 const acVoltageString = circuitConstructionKitAcStrings.screen[ 'ac-voltage' ];

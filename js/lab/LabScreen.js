@@ -9,13 +9,13 @@
 import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
 import CircuitConstructionKitModel from '../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
-import merge from '../../../phet-core/js/merge.js';
-import screenIconLab_png from '../../images/screenIconLab_png.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
+import merge from '../../../phet-core/js/merge.js';
 import { Image } from '../../../scenery/js/imports.js';
-import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
+import screenIconLab_png from '../../images/screenIconLab_png.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
+import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
 import LabScreenView from './view/LabScreenView.js';
 
 // constants
