@@ -22,7 +22,7 @@ class RLCScreenView extends CCKCScreenView {
       model.showLabelsProperty,
       model.viewTypeProperty,
       point => this.circuitLayerNode.globalToLocalPoint( point ),
-      tandem.createTandem( 'circuitElementToolbox' ).createTandem( 'circuitElementTools' )
+      tandem.createTandem( 'circuitElementToolbox' ).createTandem( 'carousel' ).createTandem( 'circuitElementTools' )
     );
 
     // Tool nodes that appear on every screen. Pagination for the carousel, each page should begin with wire node
