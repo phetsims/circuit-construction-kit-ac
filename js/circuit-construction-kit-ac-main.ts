@@ -17,6 +17,7 @@ import circuitConstructionKitAcStrings from './circuitConstructionKitAcStrings.j
 import LabScreen from './lab/LabScreen.js';
 import RLCScreen from './rlc/RLCScreen.js';
 import '../../scenery/js/nodes/Image.js';
+import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 
 const circuitConstructionKitAcTitleString = circuitConstructionKitAcStrings[ 'circuit-construction-kit-ac' ].title;
 
@@ -24,7 +25,13 @@ const circuitConstructionKitAcTitleString = circuitConstructionKitAcStrings[ 'ci
 const tandem = Tandem.ROOT;
 
 const simOptions: SimOptions = {
-  createOptionsDialogContent: ( tandem: Tandem ) => new CCKCOptionsDialogContent( tandem ),
+  preferencesModel: new PreferencesModel( {
+    generalOptions: {
+      customPreferences: [ {
+        createContent: tandem => new CCKCOptionsDialogContent( tandem )
+      } ]
+    }
+  } ),
   credits: {
     leadDesign: 'Amy Rouinfar',
     softwareDevelopment: 'Sam Reid, Denzell Barnett',
