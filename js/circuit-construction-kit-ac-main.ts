@@ -28,7 +28,7 @@ const simOptions: SimOptions = {
   preferencesModel: new PreferencesModel( {
     generalOptions: {
       customPreferences: [ {
-        createContent: tandem => new CCKCGeneralPreferencesContentNode( tandem )
+        createContent: tandem => new CCKCGeneralPreferencesContentNode( tandem.createTandem( 'simPreferences' ) )
       } ]
     }
   } ),
