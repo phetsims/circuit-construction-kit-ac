@@ -11,15 +11,15 @@ import circuitConstructionKitAc from './circuitConstructionKitAc.js';
 type StringsType = {
   'circuit-construction-kit-ac': {
     'title': string;
-    'titleProperty': TReadOnlyProperty<string>;
+    'titleStringProperty': TReadOnlyProperty<string>;
   };
   'screen': {
     'ac-voltage': string;
-    'ac-voltageProperty': TReadOnlyProperty<string>;
+    'ac-voltageStringProperty': TReadOnlyProperty<string>;
     'rlc': string;
-    'rlcProperty': TReadOnlyProperty<string>;
+    'rlcStringProperty': TReadOnlyProperty<string>;
     'lab': string;
-    'labProperty': TReadOnlyProperty<string>;
+    'labStringProperty': TReadOnlyProperty<string>;
   }
 };
 
