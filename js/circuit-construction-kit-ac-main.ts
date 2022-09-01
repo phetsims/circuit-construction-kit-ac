@@ -7,7 +7,7 @@
  */
 
 // Image is required for making toDataURLNodeSynchronous work in the built version
-import CCKCGeneralPreferencesContentNode from '../../circuit-construction-kit-common/js/view/CCKCGeneralPreferencesContentNode.js';
+import CCKCSimulationPreferencesContentNode from '../../circuit-construction-kit-common/js/view/CCKCSimulationPreferencesContentNode.js';
 import Sim, { SimOptions } from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import soundManager from '../../tambo/js/soundManager.js';
@@ -28,7 +28,7 @@ const simOptions: SimOptions = {
   preferencesModel: new PreferencesModel( {
     simulationOptions: {
       customPreferences: [ {
-        createContent: tandem => new CCKCGeneralPreferencesContentNode( tandem.createTandem( 'simPreferences' ) )
+        createContent: tandem => new CCKCSimulationPreferencesContentNode( tandem.createTandem( 'simPreferences' ) )
       } ]
     }
   } ),
