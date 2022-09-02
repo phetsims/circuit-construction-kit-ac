@@ -19,7 +19,7 @@ import RLCScreen from './rlc/RLCScreen.js';
 import '../../scenery/js/nodes/Image.js';
 import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 
-const circuitConstructionKitAcTitleString = circuitConstructionKitAcStrings[ 'circuit-construction-kit-ac' ].title;
+const circuitConstructionKitAcTitleStringProperty = circuitConstructionKitAcStrings[ 'circuit-construction-kit-ac' ].titleStringProperty;
 
 // constants
 const tandem = Tandem.ROOT;
@@ -44,7 +44,7 @@ const simOptions: SimOptions = {
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
-  const sim = new Sim( circuitConstructionKitAcTitleString, [
+  const sim = new Sim( circuitConstructionKitAcTitleStringProperty, [
     new ACVoltageScreen( tandem.createTandem( 'acVoltageScreen' ) ),
     new RLCScreen( tandem.createTandem( 'rlcScreen' ) ),
     new LabScreen( tandem.createTandem( 'labScreen' ) )
