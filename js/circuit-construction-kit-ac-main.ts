@@ -13,13 +13,13 @@ import simLauncher from '../../joist/js/simLauncher.js';
 import soundManager from '../../tambo/js/soundManager.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import ACVoltageScreen from './ac-voltage/ACVoltageScreen.js';
-import circuitConstructionKitAcStrings from './circuitConstructionKitAcStrings.js';
+import CircuitConstructionKitAcStrings from './CircuitConstructionKitAcStrings.js';
 import LabScreen from './lab/LabScreen.js';
 import RLCScreen from './rlc/RLCScreen.js';
 import '../../scenery/js/nodes/Image.js';
 import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 
-const circuitConstructionKitAcTitleStringProperty = circuitConstructionKitAcStrings[ 'circuit-construction-kit-ac' ].titleStringProperty;
+const circuitConstructionKitAcTitleStringProperty = CircuitConstructionKitAcStrings[ 'circuit-construction-kit-ac' ].titleStringProperty;
 
 // constants
 const tandem = Tandem.ROOT;

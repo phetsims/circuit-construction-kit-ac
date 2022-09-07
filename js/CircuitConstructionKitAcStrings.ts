@@ -23,8 +23,8 @@ type StringsType = {
   }
 };
 
-const circuitConstructionKitAcStrings = getStringModule( 'CIRCUIT_CONSTRUCTION_KIT_AC' ) as StringsType;
+const CircuitConstructionKitAcStrings = getStringModule( 'CIRCUIT_CONSTRUCTION_KIT_AC' ) as StringsType;
 
-circuitConstructionKitAc.register( 'circuitConstructionKitAcStrings', circuitConstructionKitAcStrings );
+circuitConstructionKitAc.register( 'CircuitConstructionKitAcStrings', CircuitConstructionKitAcStrings );
 
-export default circuitConstructionKitAcStrings;
+export default CircuitConstructionKitAcStrings;

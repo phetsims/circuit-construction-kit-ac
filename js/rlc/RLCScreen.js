@@ -14,10 +14,10 @@ import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import { Image } from '../../../scenery/js/imports.js';
 import screenIconRLC_png from '../../images/screenIconRLC_png.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
-import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
+import CircuitConstructionKitAcStrings from '../CircuitConstructionKitAcStrings.js';
 import RLCScreenView from './view/RLCScreenView.js';
 
-const screenRLCString = circuitConstructionKitAcStrings.screen.rlc;
+const screenRLCString = CircuitConstructionKitAcStrings.screen.rlc;
 
 
 class RLCScreen extends Screen {

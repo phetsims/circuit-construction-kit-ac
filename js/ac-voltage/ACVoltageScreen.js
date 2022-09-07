@@ -14,10 +14,10 @@ import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import { Image } from '../../../scenery/js/imports.js';
 import screenIconACSource_png from '../../images/screenIconACSource_png.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
-import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
+import CircuitConstructionKitAcStrings from '../CircuitConstructionKitAcStrings.js';
 import ACVoltageScreenView from './view/ACVoltageScreenView.js';
 
-const acVoltageString = circuitConstructionKitAcStrings.screen[ 'ac-voltage' ];
+const acVoltageString = CircuitConstructionKitAcStrings.screen[ 'ac-voltage' ];
 
 class ACVoltageScreen extends Screen {
 

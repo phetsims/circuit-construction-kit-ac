@@ -15,11 +15,11 @@ import merge from '../../../phet-core/js/merge.js';
 import { Image } from '../../../scenery/js/imports.js';
 import screenIconLab_png from '../../images/screenIconLab_png.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
-import circuitConstructionKitAcStrings from '../circuitConstructionKitAcStrings.js';
+import CircuitConstructionKitAcStrings from '../CircuitConstructionKitAcStrings.js';
 import LabScreenView from './view/LabScreenView.js';
 
 // constants
-const screenLabString = circuitConstructionKitAcStrings.screen.lab;
+const screenLabString = CircuitConstructionKitAcStrings.screen.lab;
 
 class LabScreen extends Screen {
 
