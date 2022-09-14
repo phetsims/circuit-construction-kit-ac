@@ -18,9 +18,6 @@ import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import CircuitConstructionKitAcStrings from '../CircuitConstructionKitAcStrings.js';
 import LabScreenView from './view/LabScreenView.js';
 
-// constants
-const screenLabString = CircuitConstructionKitAcStrings.screen.lab;
-
 class LabScreen extends Screen {
 
   /**
@@ -32,7 +29,7 @@ class LabScreen extends Screen {
     const homeScreenIcon = new Image( screenIconLab_png );
 
     options = merge( {
-      name: screenLabString,
+      name: CircuitConstructionKitAcStrings.screen.labStringProperty,
       backgroundColorProperty: new Property( CCKCConstants.BACKGROUND_COLOR ),
       homeScreenIcon: new ScreenIcon( homeScreenIcon, {
         maxIconWidthProportion: 1,

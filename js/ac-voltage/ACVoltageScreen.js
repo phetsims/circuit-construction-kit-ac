@@ -17,8 +17,6 @@ import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import CircuitConstructionKitAcStrings from '../CircuitConstructionKitAcStrings.js';
 import ACVoltageScreenView from './view/ACVoltageScreenView.js';
 
-const acVoltageString = CircuitConstructionKitAcStrings.screen[ 'ac-voltage' ];
-
 class ACVoltageScreen extends Screen {
 
   /**
@@ -29,7 +27,7 @@ class ACVoltageScreen extends Screen {
     const homeScreenIcon = new Image( screenIconACSource_png );
 
     const options = {
-      name: acVoltageString,
+      name: CircuitConstructionKitAcStrings.screen[ 'ac-voltageStringProperty' ],
       backgroundColorProperty: new Property( CCKCConstants.BACKGROUND_COLOR ),
       homeScreenIcon: new ScreenIcon( homeScreenIcon, {
         maxIconWidthProportion: 1,

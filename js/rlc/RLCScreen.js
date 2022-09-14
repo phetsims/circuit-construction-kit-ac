@@ -17,8 +17,6 @@ import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import CircuitConstructionKitAcStrings from '../CircuitConstructionKitAcStrings.js';
 import RLCScreenView from './view/RLCScreenView.js';
 
-const screenRLCString = CircuitConstructionKitAcStrings.screen.rlc;
-
 
 class RLCScreen extends Screen {
 
@@ -30,7 +28,7 @@ class RLCScreen extends Screen {
     const homeScreenIcon = new Image( screenIconRLC_png );
 
     const options = {
-      name: screenRLCString,
+      name: CircuitConstructionKitAcStrings.screen.rlcStringProperty,
       backgroundColorProperty: new Property( CCKCConstants.BACKGROUND_COLOR ),
       homeScreenIcon: new ScreenIcon( homeScreenIcon, {
         maxIconWidthProportion: 1,
