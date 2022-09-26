@@ -5,21 +5,21 @@
  */
 /* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
-import TReadOnlyProperty from '../../axon/js/TReadOnlyProperty.js';
+import LinkableProperty from '../../axon/js/LinkableProperty.js';
 import circuitConstructionKitAc from './circuitConstructionKitAc.js';
 
 type StringsType = {
   'circuit-construction-kit-ac': {
     'title': string;
-    'titleStringProperty': TReadOnlyProperty<string>;
+    'titleStringProperty': LinkableProperty<string>;
   };
   'screen': {
     'ac-voltage': string;
-    'ac-voltageStringProperty': TReadOnlyProperty<string>;
+    'ac-voltageStringProperty': LinkableProperty<string>;
     'rlc': string;
-    'rlcStringProperty': TReadOnlyProperty<string>;
+    'rlcStringProperty': LinkableProperty<string>;
     'lab': string;
-    'labStringProperty': TReadOnlyProperty<string>;
+    'labStringProperty': LinkableProperty<string>;
   }
 };
 
