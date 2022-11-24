@@ -21,7 +21,7 @@
     "branch": "HEAD"
   },
   "circuit-construction-kit-ac": {
-    "sha": "2b4d723edd92a61dbd72bd608dd7690443ad47d7",
+    "sha": "974614e1e2f111b717e4a0a7a1d1069d8263b874",
     "branch": "1.0"
   },
   "circuit-construction-kit-common": {
@@ -73,7 +73,7 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "ad3f44aecf29ba44102c26da8a82d30a51c5e8df",
+    "sha": "a4b8dceadc5972df14f83f824cca122d59926472",
     "branch": "HEAD"
   },
   "scenery-phet": {
