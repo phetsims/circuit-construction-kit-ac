@@ -45,8 +45,7 @@ class ACVoltageScreenView extends CCKCScreenView {
 
       circuitElementToolFactory.createWireToolNode(),
       circuitElementToolFactory.createPencilToolNode(),
-      circuitElementToolFactory.createHandToolNode(),
-      circuitElementToolFactory.createDogToolNode()
+      circuitElementToolFactory.createHandToolNode()
     ];
 
     super( model, circuitElementToolNodes, tandem, {

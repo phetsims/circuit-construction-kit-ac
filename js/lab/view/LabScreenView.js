@@ -46,10 +46,7 @@ class LabScreenView extends CCKCScreenView {
       circuitElementToolFactory.createCoinToolNode(),
       circuitElementToolFactory.createEraserToolNode(),
       circuitElementToolFactory.createPencilToolNode(),
-      circuitElementToolFactory.createHandToolNode(),
-
-      circuitElementToolFactory.createWireToolNode(),
-      circuitElementToolFactory.createDogToolNode()
+      circuitElementToolFactory.createHandToolNode()
     ];
 
     super( model, circuitElementToolNodes, tandem, merge( {
