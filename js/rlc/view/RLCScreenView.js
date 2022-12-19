@@ -44,8 +44,7 @@ class RLCScreenView extends CCKCScreenView {
       circuitElementToolFactory.createPaperClipToolNode(),
       circuitElementToolFactory.createCoinToolNode(),
       circuitElementToolFactory.createEraserToolNode(),
-      circuitElementToolFactory.createPencilToolNode(),
-      circuitElementToolFactory.createHandToolNode()
+      circuitElementToolFactory.createPencilToolNode()
     ];
 
     super( model, circuitElementToolNodes, tandem, {
