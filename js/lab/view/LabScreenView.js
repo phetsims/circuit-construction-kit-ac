@@ -8,6 +8,7 @@
 
 import CCKCScreenView from '../../../../circuit-construction-kit-common/js/view/CCKCScreenView.js';
 import CircuitElementToolFactory from '../../../../circuit-construction-kit-common/js/view/CircuitElementToolFactory.js';
+import CCKCConstants from '../../../../circuit-construction-kit-common/js/CCKCConstants.js';
 import merge from '../../../../phet-core/js/merge.js';
 import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 
@@ -55,6 +56,7 @@ class LabScreenView extends CCKCScreenView {
       showStopwatchCheckbox: true,
       showSeriesAmmeters: true,
       circuitElementToolboxOptions: {
+        carouselScale: CCKCConstants.AC_CAROUSEL_SCALE,
         carouselOptions: {
           itemsPerPage: 8,
           pageHeight: 400

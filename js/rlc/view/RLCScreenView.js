@@ -8,6 +8,7 @@
 
 import CCKCScreenView from '../../../../circuit-construction-kit-common/js/view/CCKCScreenView.js';
 import CircuitElementToolFactory from '../../../../circuit-construction-kit-common/js/view/CircuitElementToolFactory.js';
+import CCKCConstants from '../../../../circuit-construction-kit-common/js/CCKCConstants.js';
 import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 
 class RLCScreenView extends CCKCScreenView {
@@ -52,6 +53,7 @@ class RLCScreenView extends CCKCScreenView {
       showCharts: true,
       showTimeControls: true,
       circuitElementToolboxOptions: {
+        carouselScale: CCKCConstants.AC_CAROUSEL_SCALE,
         carouselOptions: {
           itemsPerPage: 8,
           pageHeight: 400

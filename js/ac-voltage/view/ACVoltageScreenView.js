@@ -8,6 +8,7 @@
 
 import CCKCScreenView from '../../../../circuit-construction-kit-common/js/view/CCKCScreenView.js';
 import CircuitElementToolFactory from '../../../../circuit-construction-kit-common/js/view/CircuitElementToolFactory.js';
+import CCKCConstants from '../../../../circuit-construction-kit-common/js/CCKCConstants.js';
 import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 
 class ACVoltageScreenView extends CCKCScreenView {
@@ -52,6 +53,7 @@ class ACVoltageScreenView extends CCKCScreenView {
       showCharts: true,
       showTimeControls: true,
       circuitElementToolboxOptions: {
+        carouselScale: CCKCConstants.AC_CAROUSEL_SCALE,
         carouselOptions: {
           itemsPerPage: 6 // NOTE: this must be kept in sync with the pagination above
         }
