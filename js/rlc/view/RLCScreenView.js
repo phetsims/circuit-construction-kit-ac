@@ -55,8 +55,7 @@ class RLCScreenView extends CCKCScreenView {
       circuitElementToolboxOptions: {
         carouselScale: CCKCConstants.AC_CAROUSEL_SCALE,
         carouselOptions: {
-          itemsPerPage: 8,
-          pageHeight: 400
+          itemsPerPage: 8
         }
       },
       showStopwatchCheckbox: true,
