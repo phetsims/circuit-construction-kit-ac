@@ -8,6 +8,7 @@
 
 import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
+import CCKCColors from '../../../circuit-construction-kit-common/js/view/CCKCColors.js';
 import CircuitConstructionKitModel from '../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
@@ -29,7 +30,7 @@ class RLCScreen extends Screen {
 
     const options = {
       name: CircuitConstructionKitAcStrings.screen.rlcStringProperty,
-      backgroundColorProperty: new Property( CCKCConstants.BACKGROUND_COLOR ),
+      backgroundColorProperty: new Property( CCKCColors.screenBackgroundColorProperty ),
       homeScreenIcon: new ScreenIcon( homeScreenIcon, {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
