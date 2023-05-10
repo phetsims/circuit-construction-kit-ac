@@ -30,7 +30,12 @@
       "supportsInteractiveHighlights": false
     },
     "supportsOutputJS": true,
-    "published": true
+    "published": true,
+    "screenNameKeys": [
+      "CIRCUIT_CONSTRUCTION_KIT_AC/screen.ac-voltage",
+      "CIRCUIT_CONSTRUCTION_KIT_AC/screen.rlc",
+      "CIRCUIT_CONSTRUCTION_KIT_AC/screen.lab"
+    ]
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_eslintrc.js"
