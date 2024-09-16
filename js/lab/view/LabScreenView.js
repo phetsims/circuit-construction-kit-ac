@@ -33,11 +33,11 @@ class LabScreenView extends CCKCScreenView {
 
       { createNode: tandem => circuitElementToolFactory.createWireToolNode( tandem ), tandemName: 'wireToolNode1' },
       { createNode: tandem => circuitElementToolFactory.createRightBatteryToolNode( tandem ), tandemName: 'rightBatteryToolNode' },
-      { createNode: tandem => circuitElementToolFactory.createACVoltageToolNode( tandem ), tandemName: 'aCVoltageToolNode' },
+      // { createNode: tandem => circuitElementToolFactory.createACVoltageToolNode( tandem ), tandemName: 'aCVoltageToolNode' },
       { createNode: tandem => circuitElementToolFactory.createLightBulbToolNode( tandem ), tandemName: 'lightBulbToolNode' },
       { createNode: tandem => circuitElementToolFactory.createResistorToolNode( tandem ), tandemName: 'resistorToolNode' },
-      { createNode: tandem => circuitElementToolFactory.createCapacitorToolNode( tandem ), tandemName: 'capacitorToolNode' },
-      { createNode: tandem => circuitElementToolFactory.createInductorToolNode( tandem ), tandemName: 'inductorToolNode' },
+      // { createNode: tandem => circuitElementToolFactory.createCapacitorToolNode( tandem ), tandemName: 'capacitorToolNode' },
+      // { createNode: tandem => circuitElementToolFactory.createInductorToolNode( tandem ), tandemName: 'inductorToolNode' },
       { createNode: tandem => circuitElementToolFactory.createSwitchToolNode( tandem ), tandemName: 'switchToolNode' },
 
       { createNode: tandem => circuitElementToolFactory.createWireToolNode( tandem ), tandemName: 'wireToolNode2' },
@@ -56,14 +56,14 @@ class LabScreenView extends CCKCScreenView {
       showStopwatchCheckbox: true,
       showSeriesAmmeters: true,
       circuitElementToolboxOptions: {
-        carouselScale: CCKCConstants.AC_CAROUSEL_SCALE,
+        carouselScale: CCKCConstants.DC_CAROUSEL_SCALE,
         carouselOptions: {
-          itemsPerPage: 8
+          itemsPerPage: 5
         }
       },
-      showPhaseShiftControl: true,
-      hasACandDCVoltageSources: true,
-      showAdvancedControls: true
+      showPhaseShiftControl: false,
+      hasACandDCVoltageSources: false,
+      showAdvancedControls: false
     }, options ) );
   }
 }

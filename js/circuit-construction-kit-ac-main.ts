@@ -45,8 +45,8 @@ const simOptions: SimOptions = {
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
   const sim = new Sim( circuitConstructionKitAcTitleStringProperty, [
-    new ACVoltageScreen( tandem.createTandem( 'acVoltageScreen' ) ),
-    new RLCScreen( tandem.createTandem( 'rlcScreen' ) ),
+    // new ACVoltageScreen( tandem.createTandem( 'acVoltageScreen' ) ),
+    // new RLCScreen( tandem.createTandem( 'rlcScreen' ) ),
     new LabScreen( tandem.createTandem( 'labScreen' ) )
   ], simOptions );
   sim.start();
