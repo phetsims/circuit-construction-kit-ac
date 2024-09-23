@@ -8,6 +8,7 @@
 
 // Image is required for making toDataURLNodeSynchronous work in the built version
 import CCKCSimulationPreferencesContentNode from '../../circuit-construction-kit-common/js/view/CCKCSimulationPreferencesContentNode.js';
+import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import Sim, { SimOptions } from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import soundManager from '../../tambo/js/soundManager.js';
@@ -17,7 +18,6 @@ import CircuitConstructionKitAcStrings from './CircuitConstructionKitAcStrings.j
 import LabScreen from './lab/LabScreen.js';
 import RLCScreen from './rlc/RLCScreen.js';
 import '../../scenery/js/nodes/Image.js';
-import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 
 const circuitConstructionKitAcTitleStringProperty = CircuitConstructionKitAcStrings[ 'circuit-construction-kit-ac' ].titleStringProperty;
 
