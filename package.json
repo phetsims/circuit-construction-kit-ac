@@ -35,6 +35,11 @@
       "CIRCUIT_CONSTRUCTION_KIT_AC/screen.ac-voltage",
       "CIRCUIT_CONSTRUCTION_KIT_AC/screen.rlc",
       "CIRCUIT_CONSTRUCTION_KIT_AC/screen.lab"
-    ]
+    ],
+    "phet-io": {
+      "wrappers": [
+        "phet-io-sim-specific/repos/circuit-construction-kit-ac/wrappers/codap"
+      ]
+    }
   }
 }

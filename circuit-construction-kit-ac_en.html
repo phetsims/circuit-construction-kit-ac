@@ -58,10 +58,12 @@
           "CIRCUIT_CONSTRUCTION_KIT_AC/screen.ac-voltage",
           "CIRCUIT_CONSTRUCTION_KIT_AC/screen.rlc",
           "CIRCUIT_CONSTRUCTION_KIT_AC/screen.lab"
-        ]
-      },
-      "eslintConfig": {
-        "extends": "../chipper/eslint/sim_eslintrc.js"
+        ],
+        "phet-io": {
+          "wrappers": [
+            "phet-io-sim-specific/repos/circuit-construction-kit-ac/wrappers/codap"
+          ]
+        }
       }
     };
   window.phet.chipper.stringRepos =
