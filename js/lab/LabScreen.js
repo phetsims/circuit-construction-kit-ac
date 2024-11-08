@@ -8,8 +8,8 @@
 
 import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
-import CCKCColors from '../../../circuit-construction-kit-common/js/view/CCKCColors.js';
 import CircuitConstructionKitModel from '../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
+import CCKCColors from '../../../circuit-construction-kit-common/js/view/CCKCColors.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import merge from '../../../phet-core/js/merge.js';
