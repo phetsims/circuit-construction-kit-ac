@@ -6,7 +6,6 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
-// Image is required for making toDataURLNodeSynchronous work in the built version
 import CCKCSimulationPreferencesContentNode from '../../circuit-construction-kit-common/js/view/CCKCSimulationPreferencesContentNode.js';
 import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import Sim, { SimOptions } from '../../joist/js/Sim.js';
@@ -17,7 +16,6 @@ import ACVoltageScreen from './ac-voltage/ACVoltageScreen.js';
 import CircuitConstructionKitAcStrings from './CircuitConstructionKitAcStrings.js';
 import LabScreen from './lab/LabScreen.js';
 import RLCScreen from './rlc/RLCScreen.js';
-import '../../scenery/js/nodes/Image.js';
 
 const circuitConstructionKitAcTitleStringProperty = CircuitConstructionKitAcStrings[ 'circuit-construction-kit-ac' ].titleStringProperty;
 
