@@ -12,7 +12,7 @@ import CircuitConstructionKitModel from '../../../circuit-construction-kit-commo
 import CCKCColors from '../../../circuit-construction-kit-common/js/view/CCKCColors.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import { Image } from '../../../scenery/js/imports.js';
+import Image from '../../../scenery/js/nodes/Image.js';
 import screenIconRLC_png from '../../images/screenIconRLC_png.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import CircuitConstructionKitAcStrings from '../CircuitConstructionKitAcStrings.js';
