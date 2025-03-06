@@ -26,7 +26,6 @@
     "simulation": true,
     "simFeatures": {
       "supportsSound": false,
-      "supportsInteractiveDescription": true,
       "supportsInteractiveHighlights": false
     },
     "supportsOutputJS": true,
