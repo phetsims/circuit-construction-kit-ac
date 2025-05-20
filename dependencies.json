@@ -17,11 +17,11 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "08e4bd5c814a08f09375e8a19f500919c4e4143b",
+    "sha": "8df226a013548d6597c8271dfd212b70f623d2ca",
     "branch": "HEAD"
   },
   "circuit-construction-kit-ac": {
-    "sha": "ee0995c1007875dd5e7d42766dd30ac9583a6556",
+    "sha": "108e0244500221f880f1e566bc83a8bf7c24aed0",
     "branch": "1.0"
   },
   "circuit-construction-kit-common": {
