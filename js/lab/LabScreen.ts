@@ -6,13 +6,11 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
-import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
 import CircuitConstructionKitModel from '../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
 import CCKCColors from '../../../circuit-construction-kit-common/js/view/CCKCColors.js';
-import Screen from '../../../joist/js/Screen.js';
+import Screen, { ScreenOptions } from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import { ScreenViewOptions } from '../../../joist/js/ScreenView.js';
 import Image from '../../../scenery/js/nodes/Image.js';
 import Tandem from '../../../tandem/js/Tandem.js';
 import screenIconLab_png from '../../images/screenIconLab_png.js';
@@ -26,11 +24,10 @@ class LabScreen extends Screen<CircuitConstructionKitModel, LabScreenView> {
 
     const homeScreenIcon = new Image( screenIconLab_png );
 
-    const options: ScreenViewOptions = {
+    const options: ScreenOptions = {
 
-      // @ts-expect-error
       name: CircuitConstructionKitAcStrings.screen.labStringProperty,
-      backgroundColorProperty: new Property( CCKCColors.screenBackgroundColorProperty ),
+      backgroundColorProperty: CCKCColors.screenBackgroundColorProperty,
       homeScreenIcon: new ScreenIcon( homeScreenIcon, {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
@@ -47,8 +44,6 @@ class LabScreen extends Screen<CircuitConstructionKitModel, LabScreenView> {
           showNoncontactAmmeters: true
         }
       ),
-
-      // @ts-expect-error
       options
     );
   }
