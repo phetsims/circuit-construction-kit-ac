@@ -17,7 +17,7 @@ import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 
 class LabScreenView extends CCKCScreenView {
 
-  public constructor( model: CircuitConstructionKitModel, tandem: Tandem, options: CCKCScreenViewOptions ) {
+  public constructor( model: CircuitConstructionKitModel, tandem: Tandem, showNoncontactAmmeters: boolean, options?: CCKCScreenViewOptions ) {
     const circuitElementToolFactory = new CircuitElementToolFactory(
       model.circuit,
       model.showLabelsProperty,

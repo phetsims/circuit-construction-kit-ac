@@ -46,7 +46,7 @@ simLauncher.launch( () => {
   const sim = new CCKCSim( circuitConstructionKitAcTitleStringProperty, [
     new ACVoltageScreen( tandem.createTandem( 'acVoltageScreen' ) ),
     new RLCScreen( tandem.createTandem( 'rlcScreen' ) ),
-    new LabScreen( tandem.createTandem( 'labScreen' ) )
+    new LabScreen( tandem.createTandem( 'labScreen' ), true )
   ], simOptions );
   sim.start();
 
