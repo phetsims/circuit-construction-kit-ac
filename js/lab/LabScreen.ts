@@ -12,24 +12,23 @@ import CircuitConstructionKitModel from '../../../circuit-construction-kit-commo
 import CCKCColors from '../../../circuit-construction-kit-common/js/view/CCKCColors.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import merge from '../../../phet-core/js/merge.js';
+import { ScreenViewOptions } from '../../../joist/js/ScreenView.js';
 import Image from '../../../scenery/js/nodes/Image.js';
+import Tandem from '../../../tandem/js/Tandem.js';
 import screenIconLab_png from '../../images/screenIconLab_png.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import CircuitConstructionKitAcStrings from '../CircuitConstructionKitAcStrings.js';
 import LabScreenView from './view/LabScreenView.js';
 
-class LabScreen extends Screen {
+class LabScreen extends Screen<CircuitConstructionKitModel, LabScreenView> {
 
-  /**
-   * @param {Tandem} tandem
-   * @param {Object} [options]
-   */
-  constructor( tandem, options ) {
+  public constructor( tandem: Tandem ) {
 
     const homeScreenIcon = new Image( screenIconLab_png );
 
-    options = merge( {
+    const options: ScreenViewOptions = {
+
+      // @ts-expect-error
       name: CircuitConstructionKitAcStrings.screen.labStringProperty,
       backgroundColorProperty: new Property( CCKCColors.screenBackgroundColorProperty ),
       homeScreenIcon: new ScreenIcon( homeScreenIcon, {
@@ -37,15 +36,19 @@ class LabScreen extends Screen {
         maxIconHeightProportion: 1
       } ),
       tandem: tandem,
-      maxDT: CCKCConstants.MAX_DT,
-      labScreenViewOptions: {
-        showNoncontactAmmeters: true
-      }
-    }, options );
+      maxDT: CCKCConstants.MAX_DT
+    };
 
     super(
       () => new CircuitConstructionKitModel( true, true, tandem.createTandem( 'model' ) ),
-      model => new LabScreenView( model, tandem.createTandem( 'view' ), options.labScreenViewOptions ),
+      model => new LabScreenView( model, tandem.createTandem( 'view' ), {
+
+          // @ts-expect-error
+          showNoncontactAmmeters: true
+        }
+      ),
+
+      // @ts-expect-error
       options
     );
   }

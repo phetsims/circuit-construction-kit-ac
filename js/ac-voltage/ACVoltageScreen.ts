@@ -6,30 +6,27 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
-import Property from '../../../axon/js/Property.js';
 import CCKCConstants from '../../../circuit-construction-kit-common/js/CCKCConstants.js';
 import CircuitConstructionKitModel from '../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
 import CCKCColors from '../../../circuit-construction-kit-common/js/view/CCKCColors.js';
-import Screen from '../../../joist/js/Screen.js';
+import Screen, { ScreenOptions } from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import Image from '../../../scenery/js/nodes/Image.js';
+import Tandem from '../../../tandem/js/Tandem.js';
 import screenIconACSource_png from '../../images/screenIconACSource_png.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import CircuitConstructionKitAcStrings from '../CircuitConstructionKitAcStrings.js';
 import ACVoltageScreenView from './view/ACVoltageScreenView.js';
 
-class ACVoltageScreen extends Screen {
+class ACVoltageScreen extends Screen<CircuitConstructionKitModel, ACVoltageScreenView> {
 
-  /**
-   * @param {Tandem} tandem
-   */
-  constructor( tandem ) {
+  public constructor( tandem: Tandem ) {
 
     const homeScreenIcon = new Image( screenIconACSource_png );
 
-    const options = {
+    const options: ScreenOptions = {
       name: CircuitConstructionKitAcStrings.screen[ 'ac-voltageStringProperty' ],
-      backgroundColorProperty: new Property( CCKCColors.screenBackgroundColorProperty ),
+      backgroundColorProperty: CCKCColors.screenBackgroundColorProperty,
       homeScreenIcon: new ScreenIcon( homeScreenIcon, {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1

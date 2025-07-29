@@ -1,25 +1,23 @@
 // Copyright 2019-2024, University of Colorado Boulder
 
 /**
- * The view for the Lab screen.
+ * The view for the AC Voltage screen.
  *
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
 import CCKCConstants from '../../../../circuit-construction-kit-common/js/CCKCConstants.js';
+import CircuitConstructionKitModel from '../../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
 import CCKCScreenView from '../../../../circuit-construction-kit-common/js/view/CCKCScreenView.js';
 import CircuitElementToolFactory from '../../../../circuit-construction-kit-common/js/view/CircuitElementToolFactory.js';
-import merge from '../../../../phet-core/js/merge.js';
+import Node from '../../../../scenery/js/nodes/Node.js';
+import Tandem from '../../../../tandem/js/Tandem.js';
 import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 
-class LabScreenView extends CCKCScreenView {
+class ACVoltageScreenView extends CCKCScreenView {
 
-  /**
-   * @param {LabModel} model
-   * @param {Tandem} tandem
-   * @param {Object} [options]
-   */
-  constructor( model, tandem, options ) {
+  public constructor( model: CircuitConstructionKitModel, tandem: Tandem ) {
+
     const circuitElementToolFactory = new CircuitElementToolFactory(
       model.circuit,
       model.showLabelsProperty,
@@ -28,16 +26,14 @@ class LabScreenView extends CCKCScreenView {
       tandem.createTandem( 'circuitElementToolbox' ).createTandem( 'carousel' ).createTandem( 'circuitElementTools' )
     );
 
-    // Tool nodes that appear on every screen. Pagination for the carousel, each page should begin with wire node
-    const circuitElementToolNodes = [
-
+    // Tool nodes that appear on every screen. Pagination for the carousel, each page should begin with wire node,
+    // see options.itemsPerPage below
+    const circuitElementToolNodes: Array<{ createNode: ( tandem: Tandem ) => Node; tandemName: string }> = [
       { createNode: tandem => circuitElementToolFactory.createWireToolNode( tandem ), tandemName: 'wireToolNode1' },
       { createNode: tandem => circuitElementToolFactory.createRightBatteryToolNode( tandem ), tandemName: 'rightBatteryToolNode' },
-      { createNode: tandem => circuitElementToolFactory.createACVoltageToolNode( tandem ), tandemName: 'aCVoltageToolNode' },
+      { createNode: tandem => circuitElementToolFactory.createACVoltageToolNode( tandem ), tandemName: 'acVoltageToolNode' },
       { createNode: tandem => circuitElementToolFactory.createLightBulbToolNode( tandem ), tandemName: 'lightBulbToolNode' },
       { createNode: tandem => circuitElementToolFactory.createResistorToolNode( tandem ), tandemName: 'resistorToolNode' },
-      { createNode: tandem => circuitElementToolFactory.createCapacitorToolNode( tandem ), tandemName: 'capacitorToolNode' },
-      { createNode: tandem => circuitElementToolFactory.createInductorToolNode( tandem ), tandemName: 'inductorToolNode' },
       { createNode: tandem => circuitElementToolFactory.createSwitchToolNode( tandem ), tandemName: 'switchToolNode' },
 
       { createNode: tandem => circuitElementToolFactory.createWireToolNode( tandem ), tandemName: 'wireToolNode2' },
@@ -46,27 +42,26 @@ class LabScreenView extends CCKCScreenView {
       { createNode: tandem => circuitElementToolFactory.createPaperClipToolNode( tandem ), tandemName: 'paperClipToolNode' },
       { createNode: tandem => circuitElementToolFactory.createCoinToolNode( tandem ), tandemName: 'coinToolNode' },
       { createNode: tandem => circuitElementToolFactory.createEraserToolNode( tandem ), tandemName: 'eraserToolNode' },
+
+      { createNode: tandem => circuitElementToolFactory.createWireToolNode( tandem ), tandemName: 'wireToolNode3' },
       { createNode: tandem => circuitElementToolFactory.createPencilToolNode( tandem ), tandemName: 'pencilToolNode' }
     ];
 
-    super( model, circuitElementToolNodes, tandem, merge( {
-      toolboxOrientation: 'vertical', // The toolbox should be vertical
+    super( model, circuitElementToolNodes, tandem, {
+      showAdvancedControls: false,
       showCharts: true,
       showTimeControls: true,
-      showStopwatchCheckbox: true,
-      showSeriesAmmeters: true,
       circuitElementToolboxOptions: {
         carouselScale: CCKCConstants.AC_CAROUSEL_SCALE,
         carouselOptions: {
-          itemsPerPage: 8
+          itemsPerPage: 6 // NOTE: this must be kept in sync with the pagination above
         }
       },
-      showPhaseShiftControl: true,
-      hasACandDCVoltageSources: true,
-      showAdvancedControls: true
-    }, options ) );
+      showStopwatchCheckbox: true,
+      hasACandDCVoltageSources: true
+    } );
   }
 }
 
-circuitConstructionKitAc.register( 'LabScreenView', LabScreenView );
-export default LabScreenView;
+circuitConstructionKitAc.register( 'ACVoltageScreenView', ACVoltageScreenView );
+export default ACVoltageScreenView;

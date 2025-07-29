@@ -7,17 +7,16 @@
  */
 
 import CCKCConstants from '../../../../circuit-construction-kit-common/js/CCKCConstants.js';
+import CircuitConstructionKitModel from '../../../../circuit-construction-kit-common/js/model/CircuitConstructionKitModel.js';
 import CCKCScreenView from '../../../../circuit-construction-kit-common/js/view/CCKCScreenView.js';
 import CircuitElementToolFactory from '../../../../circuit-construction-kit-common/js/view/CircuitElementToolFactory.js';
+import Node from '../../../../scenery/js/nodes/Node.js';
+import Tandem from '../../../../tandem/js/Tandem.js';
 import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 
 class RLCScreenView extends CCKCScreenView {
 
-  /**
-   * @param {RLCModel} model
-   * @param {Tandem} tandem
-   */
-  constructor( model, tandem ) {
+  public constructor( model: CircuitConstructionKitModel, tandem: Tandem ) {
     const circuitElementToolFactory = new CircuitElementToolFactory(
       model.circuit,
       model.showLabelsProperty,
@@ -27,7 +26,7 @@ class RLCScreenView extends CCKCScreenView {
     );
 
     // Tool nodes that appear on every screen. Pagination for the carousel, each page should begin with wire node
-    const circuitElementToolNodes = [
+    const circuitElementToolNodes: Array<{ createNode: ( tandem: Tandem ) => Node; tandemName: string }> = [
 
       // This page is duplicated in the Lab Screen View
       { createNode: tandem => circuitElementToolFactory.createWireToolNode( tandem ), tandemName: 'wireToolNode1' },

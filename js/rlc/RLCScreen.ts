@@ -13,18 +13,16 @@ import CCKCColors from '../../../circuit-construction-kit-common/js/view/CCKCCol
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import Image from '../../../scenery/js/nodes/Image.js';
+import Tandem from '../../../tandem/js/Tandem.js';
 import screenIconRLC_png from '../../images/screenIconRLC_png.js';
 import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import CircuitConstructionKitAcStrings from '../CircuitConstructionKitAcStrings.js';
 import RLCScreenView from './view/RLCScreenView.js';
 
 
-class RLCScreen extends Screen {
+class RLCScreen extends Screen<CircuitConstructionKitModel, RLCScreenView> {
 
-  /**
-   * @param {Tandem} tandem
-   */
-  constructor( tandem ) {
+  public constructor( tandem: Tandem ) {
 
     const homeScreenIcon = new Image( screenIconRLC_png );
 
@@ -42,6 +40,8 @@ class RLCScreen extends Screen {
     super(
       () => new CircuitConstructionKitModel( true, false, tandem.createTandem( 'model' ) ),
       model => new RLCScreenView( model, tandem.createTandem( 'view' ) ),
+
+      // @ts-expect-error
       options
     );
   }
