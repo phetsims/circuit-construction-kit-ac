@@ -13,15 +13,11 @@ import circuitConstructionKitAc from './circuitConstructionKitAc.js';
 
 type StringsType = {
   'circuit-construction-kit-ac': {
-    'title': string;
     'titleStringProperty': LocalizedStringProperty;
   };
   'screen': {
-    'ac-voltage': string;
     'ac-voltageStringProperty': LocalizedStringProperty;
-    'rlc': string;
     'rlcStringProperty': LocalizedStringProperty;
-    'lab': string;
     'labStringProperty': LocalizedStringProperty;
   }
 };
