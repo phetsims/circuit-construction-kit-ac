@@ -6,6 +6,7 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
+import CCKCQueryParameters from '../../circuit-construction-kit-common/js/CCKCQueryParameters.js';
 import CCKCSim from '../../circuit-construction-kit-common/js/view/CCKCSim.js';
 import CCKCSimulationPreferencesContentNode from '../../circuit-construction-kit-common/js/view/CCKCSimulationPreferencesContentNode.js';
 import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
@@ -42,7 +43,16 @@ const simOptions: SimOptions = {
 
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
-simLauncher.launch( () => {
+simLauncher.launch( async () => {
+
+  // Initialize EEcircuit solver if using that solver
+  if ( CCKCQueryParameters.solver === 'eecircuit' ) {
+    const { default: EEcircuitSolverManager } = await import(
+      '../../circuit-construction-kit-common/js/model/analysis/EEcircuitSolverManager.js'
+    );
+    await EEcircuitSolverManager.instance.initialize();
+  }
+
   const sim = new CCKCSim( circuitConstructionKitAcTitleStringProperty, [
     new ACVoltageScreen( tandem.createTandem( 'acVoltageScreen' ) ),
     new RLCScreen( tandem.createTandem( 'rlcScreen' ) ),
