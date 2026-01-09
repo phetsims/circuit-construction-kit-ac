@@ -44,7 +44,8 @@ class ACVoltageScreenView extends CCKCScreenView {
       { createNode: tandem => circuitElementToolFactory.createEraserToolNode( tandem ), tandemName: 'eraserToolNode' },
 
       { createNode: tandem => circuitElementToolFactory.createWireToolNode( tandem ), tandemName: 'wireToolNode3' },
-      { createNode: tandem => circuitElementToolFactory.createPencilToolNode( tandem ), tandemName: 'pencilToolNode' }
+      { createNode: tandem => circuitElementToolFactory.createPencilToolNode( tandem ), tandemName: 'pencilToolNode' },
+      { createNode: tandem => circuitElementToolFactory.createThinPencilToolNode( tandem ), tandemName: 'thinPencilToolNode' }
     ];
 
     super( model, circuitElementToolNodes, tandem, {

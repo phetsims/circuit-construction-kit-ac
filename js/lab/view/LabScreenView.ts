@@ -44,7 +44,8 @@ class LabScreenView extends CCKCScreenView {
       { createNode: tandem => circuitElementToolFactory.createPaperClipToolNode( tandem ), tandemName: 'paperClipToolNode' },
       { createNode: tandem => circuitElementToolFactory.createCoinToolNode( tandem ), tandemName: 'coinToolNode' },
       { createNode: tandem => circuitElementToolFactory.createEraserToolNode( tandem ), tandemName: 'eraserToolNode' },
-      { createNode: tandem => circuitElementToolFactory.createPencilToolNode( tandem ), tandemName: 'pencilToolNode' }
+      { createNode: tandem => circuitElementToolFactory.createPencilToolNode( tandem ), tandemName: 'pencilToolNode' },
+      { createNode: tandem => circuitElementToolFactory.createThinPencilToolNode( tandem ), tandemName: 'thinPencilToolNode' }
     ];
 
     super( model, circuitElementToolNodes, tandem, merge( {
