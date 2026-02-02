@@ -1,5 +1,5 @@
 {
-  "comment": "# circuit-construction-kit-ac 1.0.20 Tue Jun 10 2025 12:42:23 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# circuit-construction-kit-ac 1.0.21-rc.1 Mon Feb 02 2026 15:55:11 GMT-0500 (Eastern Standard Time)",
   "assert": {
     "sha": "767b2f345518ceca5144a152ecf40cd4f9206136",
     "branch": "HEAD"
@@ -21,7 +21,7 @@
     "branch": "HEAD"
   },
   "circuit-construction-kit-ac": {
-    "sha": "9a1bf3e0b6adabff33888cda7f01f362402c4763",
+    "sha": "ae72a81a6e21df520fda30c90e990d31fee466f5",
     "branch": "1.0"
   },
   "circuit-construction-kit-common": {
