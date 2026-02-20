@@ -6,6 +6,7 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
+import CCKCConstants from '../../circuit-construction-kit-common/js/CCKCConstants.js';
 import CCKCQueryParameters from '../../circuit-construction-kit-common/js/CCKCQueryParameters.js';
 import CCKCSim from '../../circuit-construction-kit-common/js/view/CCKCSim.js';
 import CCKCSimulationPreferencesContentNode from '../../circuit-construction-kit-common/js/view/CCKCSimulationPreferencesContentNode.js';
@@ -32,13 +33,7 @@ const simOptions: SimOptions = {
       } ]
     }
   } ),
-  credits: {
-    leadDesign: 'Amy Rouinfar',
-    softwareDevelopment: 'Sam Reid, Denzell Barnett',
-    team: 'Wendy Adams, Michael Dubson, Noah Finkelstein, Chris Keller, Ariel Paul, Kathy Perkins, Carl Wieman',
-    qualityAssurance: 'Jaspe Arias, Steele Dalton, Amanda Davis, Alex Dornan, Bryce Griebenow, Clifford Hardin, Ethan Johnson, Brooklyn Lash, Emily Miller, Liam Mulhall, Ben Roberts, Jacob Romero, Nancy Salpepi, Ethan Ward, Kathryn Woessner',
-    graphicArts: 'Bryce Gruneich, Mariah Hermsmeyer, Cheryl McCutchan'
-  }
+  credits: CCKCConstants.CREDITS
 };
 
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
