@@ -21,7 +21,7 @@
     "branch": "HEAD"
   },
   "circuit-construction-kit-ac": {
-    "sha": "56dd937585d8866233672c2711c1cea119a1c44a",
+    "sha": "2ab82c63333c93ac3485ae35f6fda6b843e53f4c",
     "branch": "1.0"
   },
   "circuit-construction-kit-common": {
@@ -61,7 +61,7 @@
     "branch": "HEAD"
   },
   "phetcommon": {
-    "sha": "1153a1eeb25603eee47409d85422825b23a14484",
+    "sha": "f2baa15611a8882a56cff4a496e965e29c709135",
     "branch": "HEAD"
   },
   "phetmarks": {
