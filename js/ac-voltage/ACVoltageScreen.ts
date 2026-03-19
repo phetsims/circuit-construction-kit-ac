@@ -14,7 +14,6 @@ import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import Image from '../../../scenery/js/nodes/Image.js';
 import Tandem from '../../../tandem/js/Tandem.js';
 import screenIconACSource_png from '../../images/screenIconACSource_png.js';
-import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import CircuitConstructionKitAcStrings from '../CircuitConstructionKitAcStrings.js';
 import ACVoltageScreenView from './view/ACVoltageScreenView.js';
 
@@ -43,5 +42,4 @@ class ACVoltageScreen extends Screen<CircuitConstructionKitModel, ACVoltageScree
   }
 }
 
-circuitConstructionKitAc.register( 'ACVoltageScreen', ACVoltageScreen );
 export default ACVoltageScreen;

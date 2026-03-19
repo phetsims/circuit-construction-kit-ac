@@ -14,7 +14,6 @@ import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import Image from '../../../scenery/js/nodes/Image.js';
 import Tandem from '../../../tandem/js/Tandem.js';
 import screenIconRLC_png from '../../images/screenIconRLC_png.js';
-import circuitConstructionKitAc from '../circuitConstructionKitAc.js';
 import CircuitConstructionKitAcStrings from '../CircuitConstructionKitAcStrings.js';
 import RLCScreenView from './view/RLCScreenView.js';
 
@@ -43,5 +42,4 @@ class RLCScreen extends Screen<CircuitConstructionKitModel, RLCScreenView> {
   }
 }
 
-circuitConstructionKitAc.register( 'RLCScreen', RLCScreen );
 export default RLCScreen;

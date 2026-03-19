@@ -12,7 +12,6 @@ import CCKCScreenView from '../../../../circuit-construction-kit-common/js/view/
 import CircuitElementToolFactory from '../../../../circuit-construction-kit-common/js/view/CircuitElementToolFactory.js';
 import Node from '../../../../scenery/js/nodes/Node.js';
 import Tandem from '../../../../tandem/js/Tandem.js';
-import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 
 class ACVoltageScreenView extends CCKCScreenView {
 
@@ -65,5 +64,4 @@ class ACVoltageScreenView extends CCKCScreenView {
   }
 }
 
-circuitConstructionKitAc.register( 'ACVoltageScreenView', ACVoltageScreenView );
 export default ACVoltageScreenView;

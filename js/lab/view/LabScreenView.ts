@@ -13,7 +13,6 @@ import CircuitElementToolFactory from '../../../../circuit-construction-kit-comm
 import merge from '../../../../phet-core/js/merge.js';
 import Node from '../../../../scenery/js/nodes/Node.js';
 import Tandem from '../../../../tandem/js/Tandem.js';
-import circuitConstructionKitAc from '../../circuitConstructionKitAc.js';
 
 class LabScreenView extends CCKCScreenView {
 
@@ -68,5 +67,4 @@ class LabScreenView extends CCKCScreenView {
   }
 }
 
-circuitConstructionKitAc.register( 'LabScreenView', LabScreenView );
 export default LabScreenView;
