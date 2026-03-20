@@ -24,4 +24,6 @@ type StringsType = {
 
 const CircuitConstructionKitAcStrings = getStringModule( 'CIRCUIT_CONSTRUCTION_KIT_AC' ) as StringsType;
 
+circuitConstructionKitAc.register( 'CircuitConstructionKitAcStrings', CircuitConstructionKitAcStrings );
+
 export default CircuitConstructionKitAcStrings;
